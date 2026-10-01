@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-f",
+  "slug": "materi-4-f",
+  "moduleSlug": "materi-4",
+  "letter": "F",
+  "title": "Resolusi Video",
+  "html": "<p>Resolusi mengindikasikan kerapatan jumlah piksel matriks (lebar × tinggi) yang membentuk ketajaman gambar video:</p>\n<ul>\n<li><strong>HD (High Definition)</strong>: 1280 × 720 piksel (standar hemat data internet).</li>\n<li><strong>Full HD (FHD)</strong>: 1920 × 1080 piksel (standar industri paling seimbang antara ketajaman visual dan efisiensi memori).</li>\n<li><strong>4K (Ultra HD)</strong>: 3840 × 2160 piksel (menghasilkan ketajaman detail sangat tinggi, namun membutuhkan ruang penyimpanan dan performa komputasi editing yang besar).</li>\n</ul>\n<p>Bagi siswa, resolusi Full HD (1080p) adalah standar paling ideal untuk proyek pembelajaran di sekolah.</p>\n<hr>\n",
+  "toc": []
+}

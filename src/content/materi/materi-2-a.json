@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-a",
+  "slug": "materi-2-a",
+  "moduleSlug": "materi-2",
+  "letter": "A",
+  "title": "Apa Itu Desain Grafis",
+  "html": "<p>Desain grafis adalah proses merancang komunikasi visual menggunakan perpaduan elemen seperti teks, foto, ilustrasi, warna, bentuk, garis, ruang, dan ikon. Tujuan utama desain grafis bukan sekadar membuat tampilan terlihat menarik secara estetis, melainkan membantu pembaca memahami pesan secara cepat, jelas, dan tepat sasaran.</p>\n<p>Sebagai perbandingan, pengumuman bertuliskan <em>&quot;BESOK LIBUR&quot;</em> memang sudah dapat dimengerti intinya. Namun, jika informasi tersebut dirancang lebih lengkap:</p>\n<pre><code class=\"language-text\">LIBUR SEKOLAH\nJumat, 25 September 2026\nSekolah diliburkan karena kegiatan rapat guru.\n</code></pre>\n<p>pesan menjadi jauh lebih utuh dan tidak menimbulkan ambiguitas. Jika disajikan lebih lanjut ke dalam format poster dengan hierarki visual yang terstruktur, audiens dapat menyerap inti pesan dalam hitungan detik.</p>\n<hr>\n",
+  "toc": []
+}

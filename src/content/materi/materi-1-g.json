@@ -1,0 +1,20 @@
+{
+  "id": "materi-1-g",
+  "slug": "materi-1-g",
+  "moduleSlug": "materi-1",
+  "letter": "G",
+  "title": "Cahaya",
+  "html": "<p>Dalam dunia fotografi dan video, cahaya adalah kebutuhan mutlak. Tanpa pencahayaan yang tepat, sensor kamera tidak akan mampu merekam detail gambar secara optimal.</p>\n<h3 id=\"arah-pencahayaan\" class=\"heading-3\">1. Arah Pencahayaan</h3>\n<ul>\n<li><strong>Front Light</strong>: Cahaya datang lurus dari arah depan objek/kamera. Menghasilkan pencahayaan yang merata pada subjek dengan bayangan minimal.</li>\n<li><strong>Side Light</strong>: Cahaya jatuh dari arah samping (sekitar 90 derajat). Menonjolkan bayangan, tekstur permukaan, dan memberi dimensi bentuk yang tegas pada wajah atau objek.</li>\n<li><strong>Backlight</strong>: Sumber cahaya berada tepat di belakang objek menghadap kamera. Sering digunakan untuk menghasilkan efek siluet dramatis atau garis cahaya tipis pada tepi subjek (<em>rim light</em>).</li>\n</ul>\n<h3 id=\"kualitas-cahaya\" class=\"heading-3\">2. Kualitas Cahaya</h3>\n<ul>\n<li><strong>Hard Light</strong>: Cahaya terarah kuat yang menghasilkan transisi bayangan sangat tegas dan tajam, seperti sinar matahari terik langsung di siang hari.</li>\n<li><strong>Soft Light</strong>: Cahaya baur yang menghasilkan bayangan sangat lembut dan transisi halus, contohnya cahaya jendela di ruangan berpantulan, langit mendung (<em>overcast</em>), atau cahaya yang disaring tirai tipis.</li>\n</ul>\n<div class=\"block-practice\">\n**Instruksi Praktik Sederhana:**  \nLetakkan seorang siswa di dekat jendela kelas. Ambil foto subjek dari sudut kamera yang sama. Ubah posisi hadap siswa terhadap datangnya cahaya jendela (menghadap langsung, menyamping, dan membelakangi), lalu bandingkan karakter bayangan serta eksposur hasil fotonya.\n</div>\n<p><img src=\"/assets/gambar_contoh_7.jpg\" alt=\"Perbandingan Arah Pencahayaan Fotografi\"></p>\n<hr>\n",
+  "toc": [
+    {
+      "id": "arah-pencahayaan",
+      "title": "1. Arah Pencahayaan",
+      "level": 3
+    },
+    {
+      "id": "kualitas-cahaya",
+      "title": "2. Kualitas Cahaya",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-e",
+  "slug": "materi-4-e",
+  "moduleSlug": "materi-4",
+  "letter": "E",
+  "title": "Aspek Rasio (Aspect Ratio)",
+  "html": "<p>Aspek rasio adalah proporsi perbandingan antara lebar dan tinggi dari bidang tampilan video. </p>\n<p>Format standar yang digunakan di industri multimedia:</p>\n<ul>\n<li><strong>Landscape (16:9)</strong>: Standar format horizontal universal. Sangat cocok untuk platform YouTube reguler, layar televisi, proyektor presentasi kelas, dan video profil institusi.</li>\n<li><strong>Portrait / Vertikal (9:16)</strong>: Format vertikal layar penuh smartphone. Merupakan standar utama konsumsi media sosial generasi modern seperti TikTok, Instagram Reels, dan YouTube Shorts.</li>\n<li><strong>Square (1:1)</strong>: Format bujur sangkar yang lazim diaplikasikan pada postingan feed media sosial tertentu dan katalog komersial.</li>\n</ul>\n<h2 id=\"alt-textimage-16png\" class=\"heading-2\">![alt text]/image-16.png</h2>\n",
+  "toc": []
+}

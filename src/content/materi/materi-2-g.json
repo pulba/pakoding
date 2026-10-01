@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-g",
+  "slug": "materi-2-g",
+  "moduleSlug": "materi-2",
+  "letter": "G",
+  "title": "Grid Dan Layout",
+  "html": "<p>Grid adalah sistem garis pandu matematis (kolom, baris, dan margin) yang membantu desainer menata elemen secara teratur, konsisten, dan efisien:</p>\n<pre><code class=\"language-text\">+---------------------+\n�          �          �\n�   FOTO   �  JUDUL   �\n�          �          �\n+----------+----------�\n� INFORMASI�   CTA    �\n�          �          �\n+---------------------+\n</code></pre>\n<p>Anatomi dasar sistem grid:</p>\n<ul>\n<li><strong>Margin</strong>: Batas jarak aman antara konten desain dengan tepi terluar kanvas.</li>\n<li><strong>Column</strong>: Pembagian vertikal area kerja tempat meletakkan konten.</li>\n<li><strong>Row</strong>: Pembagian horizontal area kerja.</li>\n<li><strong>Gutter</strong>: Jarak celah pemisah antarkolom atau antarbaris.</li>\n</ul>\n<p>Pemanfaatan grid menjamin keselarasan (<em>alignment</em>), kerapian tata letak, konsistensi multi-halaman, serta mempercepat proses perancangan layout.</p>\n<p>![alt text]/image.png</p>\n",
+  "toc": []
+}

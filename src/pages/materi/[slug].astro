@@ -1,0 +1,282 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import materiList from '../../data/materi.json';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+export async function getStaticPaths() {
+  const allTopics: any[] = [];
+  materiList.forEach(module => {
+    module.topics.forEach((topic: any) => {
+      allTopics.push({ topic, module });
+    });
+  });
+
+  return allTopics.map((item, index) => {
+    const fullDataPath = join(process.cwd(), 'src', 'content', 'materi', `${item.topic.slug}.json`);
+    const fullData = JSON.parse(readFileSync(fullDataPath, 'utf-8'));
+    
+    const prev = index > 0 ? allTopics[index - 1] : null;
+    const next = index < allTopics.length - 1 ? allTopics[index + 1] : null;
+
+    return {
+      params: { slug: item.topic.slug },
+      props: {
+        topicHtml: fullData.html,
+        topic: item.topic,
+        module: item.module,
+        allModules: materiList,
+        prev,
+        next
+      }
+    };
+  });
+}
+
+const { topicHtml, topic, module, allModules, prev, next } = Astro.props;
+---
+
+<Layout title={`${topic.letter}. ${topic.title} - ${module.title}`} description={module.description} activeNav="katalog">
+  <!-- Minimalist Mobile Subnav -->
+  <div class="lg:hidden sticky top-14 z-30 flex items-center justify-between px-4 py-2 bg-[var(--bg-surface)] border-b border-[var(--border)] text-xs">
+    <button
+      id="mobile-nav-toggle"
+      class="inline-flex items-center gap-1.5 font-medium text-[var(--text-primary)]"
+    >
+      <svg class="w-3.5 h-3.5 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+      </svg>
+      <span>Daftar {module.topics.length} Topik</span>
+    </button>
+
+    <a href="#toc-right" class="text-[var(--text-muted)] hover:text-[var(--text-primary)]">
+      Di Halaman Ini &darr;
+    </a>
+  </div>
+
+  <div class="w-full px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row gap-6 lg:gap-10 py-8 items-start">
+      
+      <!-- ========================================================
+           1. LEFT SIDEBAR: Clean Minimalist Topic List
+           ======================================================== -->
+      <aside
+        id="left-sidebar"
+        class="hidden lg:block lg:w-56 xl:w-64 shrink-0 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-[var(--border)] scrollbar-track-transparent space-y-6 text-xs"
+      >
+        <!-- Back Link -->
+        <a
+          href="/"
+          class="inline-flex items-center gap-1.5 text-xs text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+        >
+          <span>&larr;</span>
+          <span>Katalog Modul</span>
+        </a>
+
+        <!-- Module Topics -->
+        <div class="space-y-3">
+          <div class="pb-2 border-b border-[var(--border)]">
+            <div class="font-[var(--font-heading)] font-bold text-sm text-[var(--text-primary)] leading-snug mt-0.5">
+              {module.title}
+            </div>
+          </div>
+
+          <nav class="space-y-0.5">
+            {
+              module.topics.map((sub: any) => {
+                const isActive = sub.slug === topic.slug;
+                return (
+                  <a
+                    href={`/materi/${sub.slug}`}
+                    class={`block py-1.5 px-2 rounded transition-colors leading-relaxed ${
+                      isActive 
+                        ? 'bg-[var(--bg-elevated)] text-[var(--text-primary)] font-semibold' 
+                        : 'text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]'
+                    }`}
+                  >
+                    <span>{sub.title}</span>
+                  </a>
+                );
+              })
+            }
+          </nav>
+        </div>
+
+      </aside>
+
+      <!-- ========================================================
+           2. CENTER COLUMN: Distraction-Free Reading Content
+           ======================================================== -->
+      <main class="flex-1 w-full min-w-0 space-y-8">
+        
+        <!-- Module Header -->
+        <header class="pb-6 border-b border-[var(--border)]">
+          <h1 class="font-[var(--font-heading)] text-2xl sm:text-3xl font-extrabold text-[var(--text-primary)] tracking-tight leading-tight">
+            {topic.title}
+          </h1>
+        </header>
+
+        <!-- Article Content -->
+        <article class="w-full max-w-prose mx-auto lg:mx-0">
+          <div class="markdown-body" set:html={topicHtml} />
+        </article>
+
+        <!-- Prev / Next Navigation -->
+        <nav class="pt-8 border-t border-[var(--border)] grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {
+            prev ? (
+              <a
+                href={`/materi/${prev.topic.slug}`}
+                class="p-4 rounded-[var(--radius-card)] border border-[var(--border)] hover:border-[var(--text-primary)] transition-colors flex flex-col justify-between"
+              >
+                <span class="text-[11px] text-[var(--text-muted)]">&larr; {prev.module.displayNumber} {prev.topic.letter}</span>
+                <span class="font-bold text-xs sm:text-sm text-[var(--text-primary)] mt-1 line-clamp-1">{prev.topic.title}</span>
+              </a>
+            ) : <div class="hidden sm:block"></div>
+          }
+
+          {
+            next && (
+              <a
+                href={`/materi/${next.topic.slug}`}
+                class="p-4 rounded-[var(--radius-card)] border border-[var(--border)] hover:border-[var(--text-primary)] transition-colors flex flex-col justify-between text-right sm:col-start-2"
+              >
+                <span class="text-[11px] text-[var(--text-muted)]">{next.module.displayNumber} {next.topic.letter} &rarr;</span>
+                <span class="font-bold text-xs sm:text-sm text-[var(--text-primary)] mt-1 line-clamp-1">{next.topic.title}</span>
+              </a>
+            )
+          }
+        </nav>
+      </main>
+
+      <!-- ========================================================
+           3. RIGHT SIDEBAR: Minimalist TOC & Reference
+           ======================================================== -->
+      <aside
+        id="toc-right"
+        class="hidden lg:block lg:w-56 xl:w-64 shrink-0 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto space-y-6 scrollbar-thin scrollbar-thumb-[var(--border)] scrollbar-track-transparent text-xs"
+      >
+        <!-- On This Page -->
+        {topic.toc && topic.toc.length > 0 && (
+          <div class="space-y-2">
+
+
+            <nav id="toc-nav" class="space-y-1">
+              {
+                topic.toc.map((sub: any) => (
+                  <a
+                    href={`#${sub.id}`}
+                    class={`toc-link block py-1 px-1.5 rounded text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors leading-relaxed ${sub.level === 4 ? 'ml-3 text-[11px]' : ''}`}
+                    data-target={sub.id}
+                  >
+                    <span>{sub.title}</span>
+                  </a>
+                ))
+              }
+            </nav>
+          </div>
+        )}
+
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div id="mobile-drawer-backdrop" class="fixed inset-0 bg-black/30 z-40 hidden transition-opacity"></div>
+
+  <!-- Client-side ScrollSpy & Mobile Drawer -->
+  <script>
+    // ScrollSpy
+    const tocLinks = document.querySelectorAll('.toc-link');
+    const headings = Array.from(document.querySelectorAll('.markdown-body h3[id], .markdown-body h4[id]'));
+
+    function updateActiveHeading() {
+      const scrollY = window.scrollY;
+      let currentActiveId = '';
+
+      for (let i = 0; i < headings.length; i++) {
+        const h = headings[i];
+        const top = h.offsetTop - 120;
+        if (scrollY >= top) {
+          currentActiveId = h.id;
+        } else {
+          break;
+        }
+      }
+
+      if (currentActiveId) {
+        tocLinks.forEach((link) => {
+          const target = link.getAttribute('data-target');
+          if (target === currentActiveId) {
+            link.classList.add('text-[var(--text-primary)]', 'font-bold');
+            link.classList.remove('text-[var(--text-muted)]');
+          } else {
+            link.classList.remove('text-[var(--text-primary)]', 'font-bold');
+            link.classList.add('text-[var(--text-muted)]');
+          }
+        });
+      }
+    }
+
+    window.addEventListener('scroll', updateActiveHeading, { passive: true });
+    updateActiveHeading();
+
+    // Mobile drawer toggle
+    const mobileBtn = document.getElementById('mobile-nav-toggle');
+    const leftSidebar = document.getElementById('left-sidebar');
+    const backdrop = document.getElementById('mobile-drawer-backdrop');
+
+    if (mobileBtn && leftSidebar && backdrop) {
+      mobileBtn.addEventListener('click', () => {
+        leftSidebar.classList.toggle('hidden');
+        leftSidebar.classList.toggle('fixed');
+        leftSidebar.classList.toggle('inset-y-0');
+        leftSidebar.classList.toggle('left-0');
+        leftSidebar.classList.toggle('z-50');
+        leftSidebar.classList.toggle('w-72');
+        leftSidebar.classList.toggle('bg-[var(--color-background)]');
+        leftSidebar.classList.toggle('p-5');
+        backdrop.classList.toggle('hidden');
+      });
+
+      backdrop.addEventListener('click', () => {
+        leftSidebar.classList.add('hidden');
+        leftSidebar.classList.remove('fixed', 'inset-y-0', 'left-0', 'z-50', 'w-72', 'bg-[var(--color-background)]', 'p-5');
+        backdrop.classList.add('hidden');
+      });
+    }
+
+    // Wrap pre elements and add copy button
+    const preElements = document.querySelectorAll('.markdown-body pre');
+    preElements.forEach(pre => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'code-block-wrapper';
+      pre.parentNode?.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+      
+      const copyBtn = document.createElement('button');
+      copyBtn.className = 'copy-btn';
+      copyBtn.innerHTML = 'Salin';
+      copyBtn.setAttribute('aria-label', 'Salin kode');
+      
+      copyBtn.addEventListener('click', async () => {
+        const code = pre.querySelector('code')?.innerText || pre.innerText;
+        try {
+          await navigator.clipboard.writeText(code);
+          copyBtn.innerHTML = 'Tersalin!';
+          copyBtn.classList.add('bg-[var(--accent)]', 'border-[var(--accent)]');
+          setTimeout(() => {
+            copyBtn.innerHTML = 'Salin';
+            copyBtn.classList.remove('bg-[var(--accent)]', 'border-[var(--accent)]');
+          }, 2000);
+        } catch (err) {
+          console.error('Failed to copy', err);
+          copyBtn.innerHTML = 'Gagal';
+        }
+      });
+      
+      wrapper.appendChild(copyBtn);
+    });
+  </script>
+</Layout>

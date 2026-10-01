@@ -1,0 +1,1791 @@
+[
+  {
+    "id": 1,
+    "displayNumber": "01",
+    "slug": "materi-1",
+    "title": "Fondasi Multimedia",
+    "fullTitle": "Modul 01. Fondasi Multimedia",
+    "subtitle": "Pengantar, Unsur Visual, Komposisi, & Harmoni Warna",
+    "category": "Dasar & Konsep",
+    "description": "Pengantar konsep multimedia terpadu, unsur visual mendasar, prinsip komposisi gambar, dan teori harmoni warna.",
+    "tags": [
+      "Fondasi Visual",
+      "Komposisi",
+      "Teori Warna",
+      "Estetika Media"
+    ],
+    "duration": "4 JP",
+    "sessions": "2 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-1-a",
+        "slug": "materi-1-a",
+        "moduleSlug": "materi-1",
+        "letter": "A",
+        "title": "Apa Itu Multimedia",
+        "toc": [
+          {
+            "id": "pengertian-multimedia",
+            "title": "1. Pengertian Multimedia",
+            "level": 3
+          },
+          {
+            "id": "multimedia-di-sekitar-kita",
+            "title": "2. Multimedia di Sekitar Kita",
+            "level": 3
+          },
+          {
+            "id": "fungsi-multimedia",
+            "title": "3. Fungsi Multimedia",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "id": "materi-1-b",
+        "slug": "materi-1-b",
+        "moduleSlug": "materi-1",
+        "letter": "B",
+        "title": "Perbedaan Desain, Fotografi, Video, Dan Komunikasi",
+        "toc": [
+          {
+            "id": "desain-grafis",
+            "title": "1. Desain Grafis",
+            "level": 3
+          },
+          {
+            "id": "fotografi",
+            "title": "2. Fotografi",
+            "level": 3
+          },
+          {
+            "id": "video",
+            "title": "3. Video",
+            "level": 3
+          },
+          {
+            "id": "komunikasi",
+            "title": "4. Komunikasi",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "id": "materi-1-c",
+        "slug": "materi-1-c",
+        "moduleSlug": "materi-1",
+        "letter": "C",
+        "title": "Unsur Visual",
+        "toc": []
+      },
+      {
+        "id": "materi-1-d",
+        "slug": "materi-1-d",
+        "moduleSlug": "materi-1",
+        "letter": "D",
+        "title": "Komposisi",
+        "toc": []
+      },
+      {
+        "id": "materi-1-e",
+        "slug": "materi-1-e",
+        "moduleSlug": "materi-1",
+        "letter": "E",
+        "title": "Warna",
+        "toc": []
+      },
+      {
+        "id": "materi-1-f",
+        "slug": "materi-1-f",
+        "moduleSlug": "materi-1",
+        "letter": "F",
+        "title": "Tipografi",
+        "toc": []
+      },
+      {
+        "id": "materi-1-g",
+        "slug": "materi-1-g",
+        "moduleSlug": "materi-1",
+        "letter": "G",
+        "title": "Cahaya",
+        "toc": [
+          {
+            "id": "arah-pencahayaan",
+            "title": "1. Arah Pencahayaan",
+            "level": 3
+          },
+          {
+            "id": "kualitas-cahaya",
+            "title": "2. Kualitas Cahaya",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "id": "materi-1-h",
+        "slug": "materi-1-h",
+        "moduleSlug": "materi-1",
+        "letter": "H",
+        "title": "Audio",
+        "toc": []
+      },
+      {
+        "id": "materi-1-i",
+        "slug": "materi-1-i",
+        "moduleSlug": "materi-1",
+        "letter": "I",
+        "title": "Storytelling",
+        "toc": []
+      },
+      {
+        "id": "materi-1-j",
+        "slug": "materi-1-j",
+        "moduleSlug": "materi-1",
+        "letter": "J",
+        "title": "Komunikasi Multimedia",
+        "toc": []
+      },
+      {
+        "id": "materi-1-k",
+        "slug": "materi-1-k",
+        "moduleSlug": "materi-1",
+        "letter": "K",
+        "title": "Etika Menggunakan Karya Dan Media",
+        "toc": []
+      },
+      {
+        "id": "materi-1-l",
+        "slug": "materi-1-l",
+        "moduleSlug": "materi-1",
+        "letter": "L",
+        "title": "Praktik Pertama: Membaca Sebuah Konten",
+        "toc": []
+      },
+      {
+        "id": "materi-1-m",
+        "slug": "materi-1-m",
+        "moduleSlug": "materi-1",
+        "letter": "M",
+        "title": "Praktik Kedua: Satu Pesan, Empat Media",
+        "toc": []
+      },
+      {
+        "id": "materi-1-n",
+        "slug": "materi-1-n",
+        "moduleSlug": "materi-1",
+        "letter": "N",
+        "title": "Proyek Akhir Fondasi Multimedia",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "displayNumber": "02",
+    "slug": "materi-2",
+    "title": "Desain Grafis Fundamental",
+    "fullTitle": "Modul 02. Desain Grafis Fundamental",
+    "subtitle": "Prinsip Desain, Tipografi Kontras, & Hierarki Pesan",
+    "category": "Desain Grafis",
+    "description": "Prinsip desain grafis modern, anatomi tipografi, hierarki pesan visual, dan sistem grid tata letak terstruktur.",
+    "tags": [
+      "Desain Grafis",
+      "Tipografi",
+      "Hierarki Visual",
+      "Layout Grid"
+    ],
+    "duration": "6 JP",
+    "sessions": "3 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-2-a",
+        "slug": "materi-2-a",
+        "moduleSlug": "materi-2",
+        "letter": "A",
+        "title": "Apa Itu Desain Grafis",
+        "toc": []
+      },
+      {
+        "id": "materi-2-b",
+        "slug": "materi-2-b",
+        "moduleSlug": "materi-2",
+        "letter": "B",
+        "title": "Desainer Sebenarnya Mengerjakan Apa?",
+        "toc": []
+      },
+      {
+        "id": "materi-2-c",
+        "slug": "materi-2-c",
+        "moduleSlug": "materi-2",
+        "letter": "C",
+        "title": "Brief Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-d",
+        "slug": "materi-2-d",
+        "moduleSlug": "materi-2",
+        "letter": "D",
+        "title": "Elemen Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-e",
+        "slug": "materi-2-e",
+        "moduleSlug": "materi-2",
+        "letter": "E",
+        "title": "Prinsip Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-f",
+        "slug": "materi-2-f",
+        "moduleSlug": "materi-2",
+        "letter": "F",
+        "title": "Visual Hierarchy",
+        "toc": []
+      },
+      {
+        "id": "materi-2-g",
+        "slug": "materi-2-g",
+        "moduleSlug": "materi-2",
+        "letter": "G",
+        "title": "Grid Dan Layout",
+        "toc": []
+      },
+      {
+        "id": "materi-2-h",
+        "slug": "materi-2-h",
+        "moduleSlug": "materi-2",
+        "letter": "H",
+        "title": "Tipografi Lanjutan",
+        "toc": []
+      },
+      {
+        "id": "materi-2-i",
+        "slug": "materi-2-i",
+        "moduleSlug": "materi-2",
+        "letter": "I",
+        "title": "Warna Dalam Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-j",
+        "slug": "materi-2-j",
+        "moduleSlug": "materi-2",
+        "letter": "J",
+        "title": "Image Dalam Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-k",
+        "slug": "materi-2-k",
+        "moduleSlug": "materi-2",
+        "letter": "K",
+        "title": "Struktur Layout Poster",
+        "toc": []
+      },
+      {
+        "id": "materi-2-l",
+        "slug": "materi-2-l",
+        "moduleSlug": "materi-2",
+        "letter": "L",
+        "title": "Membuat Poster Dari Brief",
+        "toc": []
+      },
+      {
+        "id": "materi-2-m",
+        "slug": "materi-2-m",
+        "moduleSlug": "materi-2",
+        "letter": "M",
+        "title": "Sketsa Desain (*Thumbnail Sketch*)",
+        "toc": []
+      },
+      {
+        "id": "materi-2-n",
+        "slug": "materi-2-n",
+        "moduleSlug": "materi-2",
+        "letter": "N",
+        "title": "Desain Buruk Vs Desain Baik",
+        "toc": []
+      },
+      {
+        "id": "materi-2-o",
+        "slug": "materi-2-o",
+        "moduleSlug": "materi-2",
+        "letter": "O",
+        "title": "Proses Kritik Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-p",
+        "slug": "materi-2-p",
+        "moduleSlug": "materi-2",
+        "letter": "P",
+        "title": "Latihan 1: Menganalisis Poster",
+        "toc": []
+      },
+      {
+        "id": "materi-2-q",
+        "slug": "materi-2-q",
+        "moduleSlug": "materi-2",
+        "letter": "Q",
+        "title": "Latihan 2: Redesign Poster",
+        "toc": []
+      },
+      {
+        "id": "materi-2-r",
+        "slug": "materi-2-r",
+        "moduleSlug": "materi-2",
+        "letter": "R",
+        "title": "Proyek 1: Poster Kegiatan Sekolah",
+        "toc": []
+      },
+      {
+        "id": "materi-2-s",
+        "slug": "materi-2-s",
+        "moduleSlug": "materi-2",
+        "letter": "S",
+        "title": "Presentasi Karya",
+        "toc": []
+      },
+      {
+        "id": "materi-2-t",
+        "slug": "materi-2-t",
+        "moduleSlug": "materi-2",
+        "letter": "T",
+        "title": "Rubrik Penilaian Desain",
+        "toc": []
+      },
+      {
+        "id": "materi-2-u",
+        "slug": "materi-2-u",
+        "moduleSlug": "materi-2",
+        "letter": "U",
+        "title": "Tugas Akhir Desain Grafis Fundamental",
+        "toc": []
+      },
+      {
+        "id": "materi-2-v",
+        "slug": "materi-2-v",
+        "moduleSlug": "materi-2",
+        "letter": "V",
+        "title": "Tahapan Penguasaan Software",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "displayNumber": "03",
+    "slug": "materi-3",
+    "title": "Fotografi Fundamental",
+    "fullTitle": "Modul 03. Fotografi Fundamental",
+    "subtitle": "Teknik Kamera, Exposure, Pencahayaan, & Momentum",
+    "category": "Fotografi",
+    "description": "Teknik pengoperasian kamera, penguasaan segitiga exposure, karakteristik lensa, dan teknik pencahayaan alami/buatan.",
+    "tags": [
+      "Fotografi Digital",
+      "Segitiga Exposure",
+      "Komposisi Foto",
+      "Lensa & Cahaya"
+    ],
+    "duration": "6 JP",
+    "sessions": "3 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-3-a",
+        "slug": "materi-3-a",
+        "moduleSlug": "materi-3",
+        "letter": "A",
+        "title": "Apa Itu Fotografi",
+        "toc": []
+      },
+      {
+        "id": "materi-3-b",
+        "slug": "materi-3-b",
+        "moduleSlug": "materi-3",
+        "letter": "B",
+        "title": "Fotografi Bukan Sekadar Memotret",
+        "toc": []
+      },
+      {
+        "id": "materi-3-c",
+        "slug": "materi-3-c",
+        "moduleSlug": "materi-3",
+        "letter": "C",
+        "title": "Bagaimana Kamera Menghasilkan Gambar",
+        "toc": []
+      },
+      {
+        "id": "materi-3-d",
+        "slug": "materi-3-d",
+        "moduleSlug": "materi-3",
+        "letter": "D",
+        "title": "Mengenal Perangkat Kamera",
+        "toc": []
+      },
+      {
+        "id": "materi-3-e",
+        "slug": "materi-3-e",
+        "moduleSlug": "materi-3",
+        "letter": "E",
+        "title": "Kamera Smartphone Vs Kamera Digital",
+        "toc": []
+      },
+      {
+        "id": "materi-3-f",
+        "slug": "materi-3-f",
+        "moduleSlug": "materi-3",
+        "letter": "F",
+        "title": "Segitiga Eksposur (Exposure Triangle)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-g",
+        "slug": "materi-3-g",
+        "moduleSlug": "materi-3",
+        "letter": "G",
+        "title": "Aperture (Bukaan Lensa)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-h",
+        "slug": "materi-3-h",
+        "moduleSlug": "materi-3",
+        "letter": "H",
+        "title": "Shutter Speed (Kecepatan Rana)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-i",
+        "slug": "materi-3-i",
+        "moduleSlug": "materi-3",
+        "letter": "I",
+        "title": "Iso (Sensitivitas Sensor)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-j",
+        "slug": "materi-3-j",
+        "moduleSlug": "materi-3",
+        "letter": "J",
+        "title": "Praktik Pemahaman Eksposur",
+        "toc": []
+      },
+      {
+        "id": "materi-3-k",
+        "slug": "materi-3-k",
+        "moduleSlug": "materi-3",
+        "letter": "K",
+        "title": "Fokus Dan Ketertarikan Visual",
+        "toc": []
+      },
+      {
+        "id": "materi-3-l",
+        "slug": "materi-3-l",
+        "moduleSlug": "materi-3",
+        "letter": "L",
+        "title": "Depth Of Field (Ruang Tajam)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-m",
+        "slug": "materi-3-m",
+        "moduleSlug": "materi-3",
+        "letter": "M",
+        "title": "Membaca Karakter Cahaya",
+        "toc": []
+      },
+      {
+        "id": "materi-3-n",
+        "slug": "materi-3-n",
+        "moduleSlug": "materi-3",
+        "letter": "N",
+        "title": "Arah Cahaya (Lighting Direction)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-o",
+        "slug": "materi-3-o",
+        "moduleSlug": "materi-3",
+        "letter": "O",
+        "title": "Hard Light Dan Soft Light",
+        "toc": []
+      },
+      {
+        "id": "materi-3-p",
+        "slug": "materi-3-p",
+        "moduleSlug": "materi-3",
+        "letter": "P",
+        "title": "White Balance (Keseimbangan Warna Putih)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-q",
+        "slug": "materi-3-q",
+        "moduleSlug": "materi-3",
+        "letter": "Q",
+        "title": "Komposisi Fotografi",
+        "toc": []
+      },
+      {
+        "id": "materi-3-r",
+        "slug": "materi-3-r",
+        "moduleSlug": "materi-3",
+        "letter": "R",
+        "title": "Angle Pengambilan Gambar",
+        "toc": []
+      },
+      {
+        "id": "materi-3-s",
+        "slug": "materi-3-s",
+        "moduleSlug": "materi-3",
+        "letter": "S",
+        "title": "Ukuran Bingkai Subjek (Shot Size)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-t",
+        "slug": "materi-3-t",
+        "moduleSlug": "materi-3",
+        "letter": "T",
+        "title": "Perspektif Dalam Fotografi",
+        "toc": []
+      },
+      {
+        "id": "materi-3-u",
+        "slug": "materi-3-u",
+        "moduleSlug": "materi-3",
+        "letter": "U",
+        "title": "Fotografi Potret (Portrait Photography)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-v",
+        "slug": "materi-3-v",
+        "moduleSlug": "materi-3",
+        "letter": "V",
+        "title": "Fotografi Produk (Product Photography)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-w",
+        "slug": "materi-3-w",
+        "moduleSlug": "materi-3",
+        "letter": "W",
+        "title": "Fotografi Kegiatan (Event Photography)",
+        "toc": []
+      },
+      {
+        "id": "materi-3-x",
+        "slug": "materi-3-x",
+        "moduleSlug": "materi-3",
+        "letter": "X",
+        "title": "Foto Dokumentasi Terstruktur",
+        "toc": []
+      },
+      {
+        "id": "materi-3-y",
+        "slug": "materi-3-y",
+        "moduleSlug": "materi-3",
+        "letter": "Y",
+        "title": "Storytelling Melalui Foto",
+        "toc": []
+      },
+      {
+        "id": "materi-3-z",
+        "slug": "materi-3-z",
+        "moduleSlug": "materi-3",
+        "letter": "Z",
+        "title": "Manajemen Seleksi Foto (*Curation*)",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "displayNumber": "04",
+    "slug": "materi-4",
+    "title": "Video Fundamental",
+    "fullTitle": "Modul 04. Video Fundamental",
+    "subtitle": "Bahasa Visual Sinema, Ukuran Shot, & Pergerakan Kamera",
+    "category": "Videografi",
+    "description": "Dasar sinematografi, klasifikasi ukuran shot (framing), sudut pengambilan gambar, dan teknik pergerakan kamera dinamis.",
+    "tags": [
+      "Sinematografi",
+      "Shot Types",
+      "Camera Movement",
+      "Framing Audio"
+    ],
+    "duration": "6 JP",
+    "sessions": "3 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-4-a",
+        "slug": "materi-4-a",
+        "moduleSlug": "materi-4",
+        "letter": "A",
+        "title": "Apa Itu Video",
+        "toc": []
+      },
+      {
+        "id": "materi-4-b",
+        "slug": "materi-4-b",
+        "moduleSlug": "materi-4",
+        "letter": "B",
+        "title": "Produksi Video Bukan Sekadar Merekam",
+        "toc": []
+      },
+      {
+        "id": "materi-4-c",
+        "slug": "materi-4-c",
+        "moduleSlug": "materi-4",
+        "letter": "C",
+        "title": "Bahasa Visual Dalam Video",
+        "toc": []
+      },
+      {
+        "id": "materi-4-d",
+        "slug": "materi-4-d",
+        "moduleSlug": "materi-4",
+        "letter": "D",
+        "title": "Anatomi Bingkai (Frame)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-e",
+        "slug": "materi-4-e",
+        "moduleSlug": "materi-4",
+        "letter": "E",
+        "title": "Aspek Rasio (Aspect Ratio)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-f",
+        "slug": "materi-4-f",
+        "moduleSlug": "materi-4",
+        "letter": "F",
+        "title": "Resolusi Video",
+        "toc": []
+      },
+      {
+        "id": "materi-4-g",
+        "slug": "materi-4-g",
+        "moduleSlug": "materi-4",
+        "letter": "G",
+        "title": "Frame Rate (Kecepatan Bingkai)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-h",
+        "slug": "materi-4-h",
+        "moduleSlug": "materi-4",
+        "letter": "H",
+        "title": "Skala Ukuran Shot (Shot Size)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-i",
+        "slug": "materi-4-i",
+        "moduleSlug": "materi-4",
+        "letter": "I",
+        "title": "Fungsi Dramatis Dan Informasi Dari Shot Size",
+        "toc": []
+      },
+      {
+        "id": "materi-4-j",
+        "slug": "materi-4-j",
+        "moduleSlug": "materi-4",
+        "letter": "J",
+        "title": "Sudut Kamera Dalam Video (Camera Angle)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-k",
+        "slug": "materi-4-k",
+        "moduleSlug": "materi-4",
+        "letter": "K",
+        "title": "Pergerakan Kamera (Camera Movement)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-l",
+        "slug": "materi-4-l",
+        "moduleSlug": "materi-4",
+        "letter": "L",
+        "title": "Disiplin Gerakan Kamera",
+        "toc": []
+      },
+      {
+        "id": "materi-4-m",
+        "slug": "materi-4-m",
+        "moduleSlug": "materi-4",
+        "letter": "M",
+        "title": "Stabilisasi Kamera",
+        "toc": []
+      },
+      {
+        "id": "materi-4-n",
+        "slug": "materi-4-n",
+        "moduleSlug": "materi-4",
+        "letter": "N",
+        "title": "Pengaturan Ruang Kepala (Headroom)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-o",
+        "slug": "materi-4-o",
+        "moduleSlug": "materi-4",
+        "letter": "O",
+        "title": "Pengaturan Ruang Pandang (Looking Room / Noseroom)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-p",
+        "slug": "materi-4-p",
+        "moduleSlug": "materi-4",
+        "letter": "P",
+        "title": "Pengelolaan Latar Belakang (Background)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-q",
+        "slug": "materi-4-q",
+        "moduleSlug": "materi-4",
+        "letter": "Q",
+        "title": "Tiga Lapisan Kedalaman (Depth Layers)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-r",
+        "slug": "materi-4-r",
+        "moduleSlug": "materi-4",
+        "letter": "R",
+        "title": "Merangkai Sekuen Shot (Sequence)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-s",
+        "slug": "materi-4-s",
+        "moduleSlug": "materi-4",
+        "letter": "S",
+        "title": "Kontinuitas (Continuity)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-t",
+        "slug": "materi-4-t",
+        "moduleSlug": "materi-4",
+        "letter": "T",
+        "title": "Konsistensi Arah Layar (Screen Direction)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-u",
+        "slug": "materi-4-u",
+        "moduleSlug": "materi-4",
+        "letter": "U",
+        "title": "Aturan 180 Derajat (180-Degree Rule)",
+        "toc": []
+      },
+      {
+        "id": "materi-4-v",
+        "slug": "materi-4-v",
+        "moduleSlug": "materi-4",
+        "letter": "V",
+        "title": "A-Roll Dan B-Roll",
+        "toc": []
+      },
+      {
+        "id": "materi-4-w",
+        "slug": "materi-4-w",
+        "moduleSlug": "materi-4",
+        "letter": "W",
+        "title": "Perencanaan Storyboard",
+        "toc": []
+      },
+      {
+        "id": "materi-4-x",
+        "slug": "materi-4-x",
+        "moduleSlug": "materi-4",
+        "letter": "X",
+        "title": "Penyusunan Shot List",
+        "toc": []
+      },
+      {
+        "id": "materi-4-y",
+        "slug": "materi-4-y",
+        "moduleSlug": "materi-4",
+        "letter": "Y",
+        "title": "Tata Suara Dalam Pengambilan Gambar",
+        "toc": []
+      },
+      {
+        "id": "materi-4-z",
+        "slug": "materi-4-z",
+        "moduleSlug": "materi-4",
+        "letter": "Z",
+        "title": "Teknik Wawancara (Interview)",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "displayNumber": "05",
+    "slug": "materi-5",
+    "title": "Video Editing Fundamental",
+    "fullTitle": "Modul 05. Video Editing Fundamental",
+    "subtitle": "Alur Kerja Pasca-Produksi, Pacing, & Sinkronisasi Audio",
+    "category": "Editing Video",
+    "description": "Alur kerja pasca-produksi menggunakan CapCut Desktop, teknik cut & trim, penataan B-roll, serta sinkronisasi audio.",
+    "tags": [
+      "Editing Video",
+      "CapCut Desktop",
+      "Cut & B-Roll",
+      "Transisi & Efek"
+    ],
+    "duration": "6 JP",
+    "sessions": "3 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-5-a",
+        "slug": "materi-5-a",
+        "moduleSlug": "materi-5",
+        "letter": "A",
+        "title": "Apa Itu Video Editing",
+        "toc": []
+      },
+      {
+        "id": "materi-5-b",
+        "slug": "materi-5-b",
+        "moduleSlug": "materi-5",
+        "letter": "B",
+        "title": "Peran Editor Dalam Pengambilan Keputusan",
+        "toc": []
+      },
+      {
+        "id": "materi-5-c",
+        "slug": "materi-5-c",
+        "moduleSlug": "materi-5",
+        "letter": "C",
+        "title": "Workflow Resmi Penyuntingan Video",
+        "toc": []
+      },
+      {
+        "id": "materi-5-d",
+        "slug": "materi-5-d",
+        "moduleSlug": "materi-5",
+        "letter": "D",
+        "title": "Manajemen Dan Organisasi File",
+        "toc": []
+      },
+      {
+        "id": "materi-5-e",
+        "slug": "materi-5-e",
+        "moduleSlug": "materi-5",
+        "letter": "E",
+        "title": "Mengenal Antarmuka Capcut",
+        "toc": []
+      },
+      {
+        "id": "materi-5-f",
+        "slug": "materi-5-f",
+        "moduleSlug": "materi-5",
+        "letter": "F",
+        "title": "Anatomi Linimasa (Timeline)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-g",
+        "slug": "materi-5-g",
+        "moduleSlug": "materi-5",
+        "letter": "G",
+        "title": "Review Dan Seleksi Footage",
+        "toc": []
+      },
+      {
+        "id": "materi-5-h",
+        "slug": "materi-5-h",
+        "moduleSlug": "materi-5",
+        "letter": "H",
+        "title": "Rough Cut (Penyusunan Alur Kasar)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-i",
+        "slug": "materi-5-i",
+        "moduleSlug": "materi-5",
+        "letter": "I",
+        "title": "Teknik Dasar Pemotongan: Cut, Trim, Dan Split",
+        "toc": []
+      },
+      {
+        "id": "materi-5-j",
+        "slug": "materi-5-j",
+        "moduleSlug": "materi-5",
+        "letter": "J",
+        "title": "Cutting Untuk Storytelling (Visual Support)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-k",
+        "slug": "materi-5-k",
+        "moduleSlug": "materi-5",
+        "letter": "K",
+        "title": "Manipulasi Sekuen (Sequence)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-l",
+        "slug": "materi-5-l",
+        "moduleSlug": "materi-5",
+        "letter": "L",
+        "title": "Jump Cut Dan Match Cut",
+        "toc": []
+      },
+      {
+        "id": "materi-5-m",
+        "slug": "materi-5-m",
+        "moduleSlug": "materi-5",
+        "letter": "M",
+        "title": "Pacing Dan Ritme Penyuntingan",
+        "toc": []
+      },
+      {
+        "id": "materi-5-n",
+        "slug": "materi-5-n",
+        "moduleSlug": "materi-5",
+        "letter": "N",
+        "title": "Tata Suara Multitrack (Audio Editing)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-o",
+        "slug": "materi-5-o",
+        "moduleSlug": "materi-5",
+        "letter": "O",
+        "title": "Pengelolaan Elemen Audio Spesifik",
+        "toc": []
+      },
+      {
+        "id": "materi-5-p",
+        "slug": "materi-5-p",
+        "moduleSlug": "materi-5",
+        "letter": "P",
+        "title": "Audio Mixing Dan Ducking",
+        "toc": []
+      },
+      {
+        "id": "materi-5-q",
+        "slug": "materi-5-q",
+        "moduleSlug": "materi-5",
+        "letter": "Q",
+        "title": "Tipografi Dalam Video (Text & Titling)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-r",
+        "slug": "materi-5-r",
+        "moduleSlug": "materi-5",
+        "letter": "R",
+        "title": "Penggunaan Transisi Secara Bijak",
+        "toc": []
+      },
+      {
+        "id": "materi-5-s",
+        "slug": "materi-5-s",
+        "moduleSlug": "materi-5",
+        "letter": "S",
+        "title": "Efek Visual Dan Modifikasi Kecepatan",
+        "toc": []
+      },
+      {
+        "id": "materi-5-t",
+        "slug": "materi-5-t",
+        "moduleSlug": "materi-5",
+        "letter": "T",
+        "title": "Koreksi Dan Penyelarasan Warna (Color Correction & Grading)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-u",
+        "slug": "materi-5-u",
+        "moduleSlug": "materi-5",
+        "letter": "U",
+        "title": "Standar Ekspor Dan Rendering Video",
+        "toc": []
+      },
+      {
+        "id": "materi-5-v",
+        "slug": "materi-5-v",
+        "moduleSlug": "materi-5",
+        "letter": "V",
+        "title": "Aktivitas Praktik Kelas",
+        "toc": []
+      },
+      {
+        "id": "materi-5-w",
+        "slug": "materi-5-w",
+        "moduleSlug": "materi-5",
+        "letter": "W",
+        "title": "Proyek Video 1: Konten Kilat 30 Detik (Micro-Content)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-x",
+        "slug": "materi-5-x",
+        "moduleSlug": "materi-5",
+        "letter": "X",
+        "title": "Proyek Video 2: Promosi Ekstrakurikuler (Persuasif)",
+        "toc": []
+      },
+      {
+        "id": "materi-5-y",
+        "slug": "materi-5-y",
+        "moduleSlug": "materi-5",
+        "letter": "Y",
+        "title": "Proyek Video 3: Dokumenter Storytelling \"Sehari Menjadi Siswa\"",
+        "toc": []
+      },
+      {
+        "id": "materi-5-z",
+        "slug": "materi-5-z",
+        "moduleSlug": "materi-5",
+        "letter": "Z",
+        "title": "Checklist Integritas Sebelum Ekspor (Quality Control)",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "displayNumber": "06",
+    "slug": "materi-6",
+    "title": "Talent Dan Public Speaking Fundamental",
+    "fullTitle": "Modul 06. Talent Dan Public Speaking Fundamental",
+    "subtitle": "Olah Vokal, Bahasa Tubuh, & Kepercayaan Diri di Depan Kamera",
+    "category": "Public Speaking",
+    "description": "Keterampilan olah vokal, artikulasi, bahasa tubuh komunikatif, serta membangun kepercayaan diri di depan kamera.",
+    "tags": [
+      "Public Speaking",
+      "Vokal & Nada",
+      "Gesture & Tatapan",
+      "Presenter"
+    ],
+    "duration": "4 JP",
+    "sessions": "2 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-6-a",
+        "slug": "materi-6-a",
+        "moduleSlug": "materi-6",
+        "letter": "A",
+        "title": "Pengertian Talent Dan Public Speaking",
+        "toc": []
+      },
+      {
+        "id": "materi-6-b",
+        "slug": "materi-6-b",
+        "moduleSlug": "materi-6",
+        "letter": "B",
+        "title": "Prinsip Komunikasi: Lebih Dari Sekadar \"Berani Bicara\"",
+        "toc": []
+      },
+      {
+        "id": "materi-6-c",
+        "slug": "materi-6-c",
+        "moduleSlug": "materi-6",
+        "letter": "C",
+        "title": "Menetapkan Tujuan Berbicara",
+        "toc": []
+      },
+      {
+        "id": "materi-6-d",
+        "slug": "materi-6-d",
+        "moduleSlug": "materi-6",
+        "letter": "D",
+        "title": "Analisis Karakter Audiens",
+        "toc": []
+      },
+      {
+        "id": "materi-6-e",
+        "slug": "materi-6-e",
+        "moduleSlug": "materi-6",
+        "letter": "E",
+        "title": "Struktur Baku Penyampaian Pesan",
+        "toc": []
+      },
+      {
+        "id": "materi-6-f",
+        "slug": "materi-6-f",
+        "moduleSlug": "materi-6",
+        "letter": "F",
+        "title": "Teknik Membuat Hook Penarik Perhatian",
+        "toc": []
+      },
+      {
+        "id": "materi-6-g",
+        "slug": "materi-6-g",
+        "moduleSlug": "materi-6",
+        "letter": "G",
+        "title": "Opening Yang Efektif",
+        "toc": []
+      },
+      {
+        "id": "materi-6-h",
+        "slug": "materi-6-h",
+        "moduleSlug": "materi-6",
+        "letter": "H",
+        "title": "Pengelolaan Isi Pembicaraan",
+        "toc": []
+      },
+      {
+        "id": "materi-6-i",
+        "slug": "materi-6-i",
+        "moduleSlug": "materi-6",
+        "letter": "I",
+        "title": "Closing Dan Call To Action (Cta)",
+        "toc": []
+      },
+      {
+        "id": "materi-6-j",
+        "slug": "materi-6-j",
+        "moduleSlug": "materi-6",
+        "letter": "J",
+        "title": "Seni Olah Suara (Vocal Delivery)",
+        "toc": []
+      },
+      {
+        "id": "materi-6-k",
+        "slug": "materi-6-k",
+        "moduleSlug": "materi-6",
+        "letter": "K",
+        "title": "Kontak Mata Dengan Lensa Kamera (Eye Contact)",
+        "toc": []
+      },
+      {
+        "id": "materi-6-l",
+        "slug": "materi-6-l",
+        "moduleSlug": "materi-6",
+        "letter": "L",
+        "title": "Postur Tubuh Dan Bahasa Tubuh (Body Language)",
+        "toc": []
+      },
+      {
+        "id": "materi-6-m",
+        "slug": "materi-6-m",
+        "moduleSlug": "materi-6",
+        "letter": "M",
+        "title": "Penggunaan Gestur Tangan Secara Proporsional",
+        "toc": []
+      },
+      {
+        "id": "materi-6-n",
+        "slug": "materi-6-n",
+        "moduleSlug": "materi-6",
+        "letter": "N",
+        "title": "Keselarasan Ekspresi Wajah",
+        "toc": []
+      },
+      {
+        "id": "materi-6-o",
+        "slug": "materi-6-o",
+        "moduleSlug": "materi-6",
+        "letter": "O",
+        "title": "Ritual Mental Saat Kamera Menyala",
+        "toc": []
+      },
+      {
+        "id": "materi-6-p",
+        "slug": "materi-6-p",
+        "moduleSlug": "materi-6",
+        "letter": "P",
+        "title": "Menghafal Kata Vs Menyusun Poin Kunci",
+        "toc": []
+      },
+      {
+        "id": "materi-6-q",
+        "slug": "materi-6-q",
+        "moduleSlug": "materi-6",
+        "letter": "Q",
+        "title": "Ragam Peran Talent Dalam Produksi Multimedia",
+        "toc": []
+      },
+      {
+        "id": "materi-6-r",
+        "slug": "materi-6-r",
+        "moduleSlug": "materi-6",
+        "letter": "R",
+        "title": "Teknik Wawancara Yang Hidup",
+        "toc": []
+      },
+      {
+        "id": "materi-6-s",
+        "slug": "materi-6-s",
+        "moduleSlug": "materi-6",
+        "letter": "S",
+        "title": "Struktur Talent Dalam Video Promosi",
+        "toc": []
+      },
+      {
+        "id": "materi-6-t",
+        "slug": "materi-6-t",
+        "moduleSlug": "materi-6",
+        "letter": "T",
+        "title": "Penguasaan Format Talking Head",
+        "toc": []
+      },
+      {
+        "id": "materi-6-u",
+        "slug": "materi-6-u",
+        "moduleSlug": "materi-6",
+        "letter": "U",
+        "title": "Aktivitas Praktik Kelas Bertarap",
+        "toc": []
+      },
+      {
+        "id": "materi-6-v",
+        "slug": "materi-6-v",
+        "moduleSlug": "materi-6",
+        "letter": "V",
+        "title": "Penanganan Siswa Pemalu (Progressive Exposure)",
+        "toc": []
+      },
+      {
+        "id": "materi-6-w",
+        "slug": "materi-6-w",
+        "moduleSlug": "materi-6",
+        "letter": "W",
+        "title": "Lembar Refleksi Dan Evaluasi Diri",
+        "toc": []
+      },
+      {
+        "id": "materi-6-x",
+        "slug": "materi-6-x",
+        "moduleSlug": "materi-6",
+        "letter": "X",
+        "title": "Prompt Generasi Visual Edukasi",
+        "toc": []
+      },
+      {
+        "id": "materi-6-y",
+        "slug": "materi-6-y",
+        "moduleSlug": "materi-6",
+        "letter": "Y",
+        "title": "Rubrik Penilaian Talent & Public Speaking",
+        "toc": []
+      },
+      {
+        "id": "materi-6-z",
+        "slug": "materi-6-z",
+        "moduleSlug": "materi-6",
+        "letter": "Z",
+        "title": "Target Kompetensi Komunikator Multimedia",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "displayNumber": "07",
+    "slug": "materi-7",
+    "title": "Storytelling Fundamental",
+    "fullTitle": "Modul 07. Storytelling Fundamental",
+    "subtitle": "Seni Bertutur, Membangun Empati, & Merancang Naskah Kuat",
+    "category": "Storytelling",
+    "description": "Seni merancang narasi memikat, struktur cerita tiga babak, formula hook 3 detik, dan penulisan naskah video komersial.",
+    "tags": [
+      "Storytelling",
+      "Struktur 3 Babak",
+      "Hook & Emosi",
+      "Scriptwriting"
+    ],
+    "duration": "4 JP",
+    "sessions": "2 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-7-a",
+        "slug": "materi-7-a",
+        "moduleSlug": "materi-7",
+        "letter": "A",
+        "title": "Hakikat Storytelling: Dari Data Menjadi Rasa",
+        "toc": []
+      },
+      {
+        "id": "materi-7-b",
+        "slug": "materi-7-b",
+        "moduleSlug": "materi-7",
+        "letter": "B",
+        "title": "Storytelling Multimedia: Bercerita Tanpa Kata",
+        "toc": []
+      },
+      {
+        "id": "materi-7-c",
+        "slug": "materi-7-c",
+        "moduleSlug": "materi-7",
+        "letter": "C",
+        "title": "Relevansi Storytelling Bagi Psikologi Manusia",
+        "toc": []
+      },
+      {
+        "id": "materi-7-d",
+        "slug": "materi-7-d",
+        "moduleSlug": "materi-7",
+        "letter": "D",
+        "title": "Perbedaan Fundamental: Informasi Vs Cerita",
+        "toc": []
+      },
+      {
+        "id": "materi-7-e",
+        "slug": "materi-7-e",
+        "moduleSlug": "materi-7",
+        "letter": "E",
+        "title": "Tujuh Anatomi Dasar Pembangun Cerita",
+        "toc": []
+      },
+      {
+        "id": "materi-7-f",
+        "slug": "materi-7-f",
+        "moduleSlug": "materi-7",
+        "letter": "F",
+        "title": "Memilih Tokoh Dan Membangun Karakter",
+        "toc": []
+      },
+      {
+        "id": "materi-7-g",
+        "slug": "materi-7-g",
+        "moduleSlug": "materi-7",
+        "letter": "G",
+        "title": "Latar Tempat Dan Waktu (Setting)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-h",
+        "slug": "materi-7-h",
+        "moduleSlug": "materi-7",
+        "letter": "H",
+        "title": "Tujuan, Masalah, Dan Perubahan (Transformasi)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-i",
+        "slug": "materi-7-i",
+        "moduleSlug": "materi-7",
+        "letter": "I",
+        "title": "Struktur Narasi Tiga Babak (Basic 3-Act Structure)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-j",
+        "slug": "materi-7-j",
+        "moduleSlug": "materi-7",
+        "letter": "J",
+        "title": "Struktur Narasi Lima Tahap (Classic 5-Part Dramatic Arc)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-k",
+        "slug": "materi-7-k",
+        "moduleSlug": "materi-7",
+        "letter": "K",
+        "title": "Prinsip Emas Sinematografi: \"Show, Don'T Tell\"",
+        "toc": []
+      },
+      {
+        "id": "materi-7-l",
+        "slug": "materi-7-l",
+        "moduleSlug": "materi-7",
+        "letter": "L",
+        "title": "Merangkai Visual Storytelling Bertahap",
+        "toc": []
+      },
+      {
+        "id": "materi-7-m",
+        "slug": "materi-7-m",
+        "moduleSlug": "materi-7",
+        "letter": "M",
+        "title": "B-Roll, Musik, Dan Desain Suara Emosional",
+        "toc": []
+      },
+      {
+        "id": "materi-7-n",
+        "slug": "materi-7-n",
+        "moduleSlug": "materi-7",
+        "letter": "N",
+        "title": "Tantangan Storytelling Tanpa Kata (Mute Visual)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-o",
+        "slug": "materi-7-o",
+        "moduleSlug": "materi-7",
+        "letter": "O",
+        "title": "Storytelling Berbasis Foto Tunggal Dan Esai Foto",
+        "toc": []
+      },
+      {
+        "id": "materi-7-p",
+        "slug": "materi-7-p",
+        "moduleSlug": "materi-7",
+        "letter": "P",
+        "title": "Etika Dan Empati Dalam Storytelling",
+        "toc": []
+      },
+      {
+        "id": "materi-7-q",
+        "slug": "materi-7-q",
+        "moduleSlug": "materi-7",
+        "letter": "Q",
+        "title": "Struktur Naskah Storytelling Ringkas (30 & 60 Detik)",
+        "toc": []
+      },
+      {
+        "id": "materi-7-r",
+        "slug": "materi-7-r",
+        "moduleSlug": "materi-7",
+        "letter": "R",
+        "title": "Aktivitas Praktik Kelas",
+        "toc": []
+      },
+      {
+        "id": "materi-7-s",
+        "slug": "materi-7-s",
+        "moduleSlug": "materi-7",
+        "letter": "S",
+        "title": "Proyek Karya Storytelling",
+        "toc": []
+      },
+      {
+        "id": "materi-7-t",
+        "slug": "materi-7-t",
+        "moduleSlug": "materi-7",
+        "letter": "T",
+        "title": "Delapan Kekeliruan Fatal Storytelling Pemula",
+        "toc": []
+      },
+      {
+        "id": "materi-7-u",
+        "slug": "materi-7-u",
+        "moduleSlug": "materi-7",
+        "letter": "U",
+        "title": "Prompt Generasi Visual Edukasi",
+        "toc": []
+      },
+      {
+        "id": "materi-7-v",
+        "slug": "materi-7-v",
+        "moduleSlug": "materi-7",
+        "letter": "V",
+        "title": "Rubrik Penilaian Storytelling",
+        "toc": []
+      },
+      {
+        "id": "materi-7-w",
+        "slug": "materi-7-w",
+        "moduleSlug": "materi-7",
+        "letter": "W",
+        "title": "Peta Pencapaian Tujuh Pilar Utama Multimedia",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "displayNumber": "08",
+    "slug": "materi-8",
+    "title": "Praktik Canva",
+    "fullTitle": "Modul 08. Praktik Canva",
+    "subtitle": "Implementasi Desain Praktis & Pembuatan Aset Digital",
+    "category": "Praktik Digital",
+    "description": "Implementasi desain praktis dengan Canva: pembuatan feed Instagram, poster promosi resmi, hingga ekspor multi-format.",
+    "tags": [
+      "Praktik Canva",
+      "Workshop Grafis",
+      "Brand Identity",
+      "Ekspor Multi-Format"
+    ],
+    "duration": "6 JP",
+    "sessions": "3 Sesi",
+    "isProject": false,
+    "topics": [
+      {
+        "id": "materi-8-a",
+        "slug": "materi-8-a",
+        "moduleSlug": "materi-8",
+        "letter": "A",
+        "title": "Apa Itu Canva?",
+        "toc": []
+      },
+      {
+        "id": "materi-8-b",
+        "slug": "materi-8-b",
+        "moduleSlug": "materi-8",
+        "letter": "B",
+        "title": "Canva Sebagai Alat, Bukan Tujuan",
+        "toc": []
+      },
+      {
+        "id": "materi-8-c",
+        "slug": "materi-8-c",
+        "moduleSlug": "materi-8",
+        "letter": "C",
+        "title": "Anatomi Workspace Canva",
+        "toc": []
+      },
+      {
+        "id": "materi-8-d",
+        "slug": "materi-8-d",
+        "moduleSlug": "materi-8",
+        "letter": "D",
+        "title": "Menentukan Ukuran Kanvas Sebelum Mendesain",
+        "toc": []
+      },
+      {
+        "id": "materi-8-e",
+        "slug": "materi-8-e",
+        "moduleSlug": "materi-8",
+        "letter": "E",
+        "title": "Membedah Template Secara Kritis",
+        "toc": []
+      },
+      {
+        "id": "materi-8-f",
+        "slug": "materi-8-f",
+        "moduleSlug": "materi-8",
+        "letter": "F",
+        "title": "Mendesain Dari Kanvas Kosong (Blank Canvas)",
+        "toc": []
+      },
+      {
+        "id": "materi-8-g",
+        "slug": "materi-8-g",
+        "moduleSlug": "materi-8",
+        "letter": "G",
+        "title": "Implementasi Hierarki Dan Alignment",
+        "toc": []
+      },
+      {
+        "id": "materi-8-h",
+        "slug": "materi-8-h",
+        "moduleSlug": "materi-8",
+        "letter": "H",
+        "title": "Pengelolaan Layer Dan Grouping",
+        "toc": []
+      },
+      {
+        "id": "materi-8-i",
+        "slug": "materi-8-i",
+        "moduleSlug": "materi-8",
+        "letter": "I",
+        "title": "Tipografi Dan Font Pairing Di Canva",
+        "toc": []
+      },
+      {
+        "id": "materi-8-j",
+        "slug": "materi-8-j",
+        "moduleSlug": "materi-8",
+        "letter": "J",
+        "title": "Harmoni Warna Dan Kontras",
+        "toc": []
+      },
+      {
+        "id": "materi-8-k",
+        "slug": "materi-8-k",
+        "moduleSlug": "materi-8",
+        "letter": "K",
+        "title": "Manajemen Aset Foto Dan Elemen Grafis",
+        "toc": []
+      },
+      {
+        "id": "materi-8-l",
+        "slug": "materi-8-l",
+        "moduleSlug": "materi-8",
+        "letter": "L",
+        "title": "Ragam Proyek Praktik Kelas Canva",
+        "toc": []
+      },
+      {
+        "id": "materi-8-m",
+        "slug": "materi-8-m",
+        "moduleSlug": "materi-8",
+        "letter": "M",
+        "title": "Animasi Dan Video Ringkas Di Canva",
+        "toc": []
+      },
+      {
+        "id": "materi-8-n",
+        "slug": "materi-8-n",
+        "moduleSlug": "materi-8",
+        "letter": "N",
+        "title": "Alur Kritik Desain (Design Critique)",
+        "toc": []
+      },
+      {
+        "id": "materi-8-o",
+        "slug": "materi-8-o",
+        "moduleSlug": "materi-8",
+        "letter": "O",
+        "title": "Standar Ekspor Dan Format Penamaan File",
+        "toc": []
+      },
+      {
+        "id": "materi-8-p",
+        "slug": "materi-8-p",
+        "moduleSlug": "materi-8",
+        "letter": "P",
+        "title": "Checklist Kontrol Kualitas Sebelum Ekspor",
+        "toc": []
+      },
+      {
+        "id": "materi-8-q",
+        "slug": "materi-8-q",
+        "moduleSlug": "materi-8",
+        "letter": "Q",
+        "title": "Rubrik Penilaian Praktik Canva",
+        "toc": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "displayNumber": "09",
+    "slug": "materi-9",
+    "title": "Project Multimedia Terpadu",
+    "fullTitle": "Modul 09. Project Multimedia Terpadu",
+    "subtitle": "Simulasi Agensi Kreatif: Dari Brief Klien hingga Produk Final",
+    "category": "Project Akhir",
+    "description": "Simulasi agensi kreatif terpadu: memproduksi paket kampanye multimedia menyeluruh dari tahap brief klien hingga showcase final.",
+    "tags": [
+      "Project Terpadu",
+      "Creative Agency",
+      "Kampanye Multimedia",
+      "Showcase"
+    ],
+    "duration": "12 JP",
+    "sessions": "6 Sesi",
+    "isProject": true,
+    "topics": [
+      {
+        "id": "materi-9-a",
+        "slug": "materi-9-a",
+        "moduleSlug": "materi-9",
+        "letter": "A",
+        "title": "Hakikat Proyek Multimedia Terpadu",
+        "toc": []
+      },
+      {
+        "id": "materi-9-b",
+        "slug": "materi-9-b",
+        "moduleSlug": "materi-9",
+        "letter": "B",
+        "title": "Simulasi Dunia Kerja Industri Kreatif",
+        "toc": []
+      },
+      {
+        "id": "materi-9-c",
+        "slug": "materi-9-c",
+        "moduleSlug": "materi-9",
+        "letter": "C",
+        "title": "Dokumen Acuan: Project Brief",
+        "toc": []
+      },
+      {
+        "id": "materi-9-d",
+        "slug": "materi-9-d",
+        "moduleSlug": "materi-9",
+        "letter": "D",
+        "title": "Tahap Riset Dan Pendalaman Pesan",
+        "toc": []
+      },
+      {
+        "id": "materi-9-e",
+        "slug": "materi-9-e",
+        "moduleSlug": "materi-9",
+        "letter": "E",
+        "title": "Perancangan Identitas Visual (Visual Identity)",
+        "toc": []
+      },
+      {
+        "id": "materi-9-f",
+        "slug": "materi-9-f",
+        "moduleSlug": "materi-9",
+        "letter": "F",
+        "title": "Peracikan Storyboard Dan Shot List Produksi",
+        "toc": []
+      },
+      {
+        "id": "materi-9-g",
+        "slug": "materi-9-g",
+        "moduleSlug": "materi-9",
+        "letter": "G",
+        "title": "Produksi Lapangan: Satu Sesi, Beragam Luaran",
+        "toc": []
+      },
+      {
+        "id": "materi-9-h",
+        "slug": "materi-9-h",
+        "moduleSlug": "materi-9",
+        "letter": "H",
+        "title": "Manajemen Folder Proyek Kerja",
+        "toc": []
+      },
+      {
+        "id": "materi-9-i",
+        "slug": "materi-9-i",
+        "moduleSlug": "materi-9",
+        "letter": "I",
+        "title": "Penyuntingan Dan Integrasi Pasca-Produksi",
+        "toc": []
+      },
+      {
+        "id": "materi-9-j",
+        "slug": "materi-9-j",
+        "moduleSlug": "materi-9",
+        "letter": "J",
+        "title": "Uji Kelayakan Awal (Screening & User Testing)",
+        "toc": []
+      },
+      {
+        "id": "materi-9-k",
+        "slug": "materi-9-k",
+        "moduleSlug": "materi-9",
+        "letter": "K",
+        "title": "Presentasi Pertanggungjawaban Karya (Creative Pitching)",
+        "toc": []
+      },
+      {
+        "id": "materi-9-l",
+        "slug": "materi-9-l",
+        "moduleSlug": "materi-9",
+        "letter": "L",
+        "title": "Lembar Kerja Proyek Terpadu (Siap Cetak)",
+        "toc": []
+      },
+      {
+        "id": "materi-9-m",
+        "slug": "materi-9-m",
+        "moduleSlug": "materi-9",
+        "letter": "M",
+        "title": "Rubrik Penilaian Proyek Multimedia Terpadu",
+        "toc": []
+      },
+      {
+        "id": "materi-9-n",
+        "slug": "materi-9-n",
+        "moduleSlug": "materi-9",
+        "letter": "N",
+        "title": "Hasil Akhir: Dari Operator Menjadi Kreator Konten",
+        "toc": []
+      }
+    ]
+  }
+]

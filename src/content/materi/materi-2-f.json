@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-f",
+  "slug": "materi-2-f",
+  "moduleSlug": "materi-2",
+  "letter": "F",
+  "title": "Visual Hierarchy",
+  "html": "<p>Visual hierarchy adalah salah satu pilar paling krusial dalam desain grafis yang menentukan elemen apa yang diserap pertama kali oleh mata penonton. Pembagian hierarki terdiri dari:</p>\n<ul>\n<li><strong>Primary (Tingkat Utama)</strong>: Informasi terpenting yang menjadi penarik perhatian utama, contohnya judul kegiatan:</li>\n</ul>\n<pre><code class=\"language-text\">LOMBA FOTOGRAFI\n</code></pre>\n<ul>\n<li><strong>Secondary (Tingkat Kedua)</strong>: Informasi pendukung konteks tema:</li>\n</ul>\n<pre><code class=\"language-text\">Tema: Sekolahku\n</code></pre>\n<ul>\n<li><strong>Tertiary (Tingkat Ketiga)</strong>: Informasi rincian teknis tambahan:</li>\n</ul>\n<pre><code class=\"language-text\">Pendaftaran ditutup 15 Oktober 2026.\n</code></pre>\n<ul>\n<li><strong>CTA (Call to Action)</strong>: Tindakan tegas yang diinginkan dari audiens:</li>\n</ul>\n<pre><code class=\"language-text\">DAFTAR SEKARANG\n</code></pre>\n<p>Siswa wajib memahami bahwa tidak semua teks harus ditampilkan dengan ukuran yang sama besar agar tidak membingungkan pembaca.</p>\n<hr>\n",
+  "toc": []
+}

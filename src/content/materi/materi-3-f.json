@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-f",
+  "slug": "materi-3-f",
+  "moduleSlug": "materi-3",
+  "letter": "F",
+  "title": "Segitiga Eksposur (Exposure Triangle)",
+  "html": "<p>Eksposur (<em>exposure</em>) adalah kuantitas cahaya yang masuk dan diterima oleh sensor kamera saat pengambilan gambar berlangsung. Hasil foto dapat dikategorikan menjadi: terlalu gelap (<em>underexposed</em>), seimbang/tepat (<em>normal exposure</em>), atau terlalu terang/putih (<em>overexposed</em>).</p>\n<p>Tiga pilar utama pengatur pencahayaan dikenal sebagai <strong>Segitiga Eksposur</strong>:</p>\n<pre><code class=\"language-text\">APERTURE + SHUTTER SPEED + ISO = EXPOSURE\n</code></pre>\n<p>![alt text]/image-4.png</p>\n<hr>\n",
+  "toc": []
+}

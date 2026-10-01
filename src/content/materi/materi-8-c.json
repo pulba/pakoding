@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-c",
+  "slug": "materi-8-c",
+  "moduleSlug": "materi-8",
+  "letter": "C",
+  "title": "Anatomi Workspace Canva",
+  "html": "<p>Area kerja Canva dirancang intuitif dengan pembagian zona fungsional:</p>\n<pre><code class=\"language-text\">┌────────────────────────────────────────────────────────┐\n│ Toolbar Atas (Home, File, Resize, Undo/Redo, Share)   │\n├───────────────┬────────────────────────────────────────┤\n│               │                                        │\n│ Sidebar Panel │             Canvas Kerja               │\n│ (Templates,   │          (Area Bidang Desain)          │\n│ Elements,     │                                        │\n│ Text, Uploads,│                                        │\n│ Projects)     │                                        │\n│               │                                        │\n├───────────────┴────────────────────────────────────────┤\n│ Toolbar Kontekstual (Font, Size, Color, Spacing, Pos)  │\n└────────────────────────────────────────────────────────┘\n</code></pre>\n<p>Perhatikan menu navigasi utama: Home, Templates, Elements, Text, Uploads, Projects, Canvas, Position Toolbar, serta tombol Share dan Download.</p>\n<hr>\n",
+  "toc": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-g",
+  "slug": "materi-4-g",
+  "moduleSlug": "materi-4",
+  "letter": "G",
+  "title": "Frame Rate (Kecepatan Bingkai)",
+  "html": "<p>Frame rate menunjukkan banyaknya cuplikan gambar diam yang ditayangkan secara berurutan dalam durasi satu detik, dengan satuan <em>fps</em> (<em>frames per second</em>):</p>\n<ul>\n<li><strong>24 fps</strong>: Standar baku industri sinema layar lebar (<em>motion picture</em>). Menghadirkan kesan visual sinematik dengan buram gerakan (<em>motion blur</em>) yang alami seperti penglihatan mata manusia.</li>\n<li><strong>30 fps</strong>: Standar tayangan televisi dan konten digital umum di media sosial.</li>\n<li><strong>60 fps</strong>: Menghasilkan rekaman gerakan yang sangat halus dan tajam untuk siaran olahraga cepat, serta menjadi format bahan baku wajib jika rekaman hendak diperlambat menjadi efek <em>slow motion</em> yang mulus di tahapan editing.</li>\n</ul>\n<p>![alt text]/image-17.png</p>\n<hr>\n",
+  "toc": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-k",
+  "slug": "materi-2-k",
+  "moduleSlug": "materi-2",
+  "letter": "K",
+  "title": "Struktur Layout Poster",
+  "html": "<p>Layout adalah seni menempatkan seluruh elemen visual secara harmonis di dalam satu kesatuan bidang. Struktur tata letak poster standar pada umumnya tersusun atas:</p>\n<pre><code class=\"language-text\">+--------------------------+\n�                          �\n�          JUDUL           �\n�                          �\n�          FOTO            �\n�                          �\n�        INFORMASI         �\n�                          �\n�     DAFTAR SEKARANG      �\n�                          �\n+--------------------------+\n</code></pre>\n<p>Perancangan layout bukan sekadar menggeser objek secara acak hingga terlihat pas, melainkan harus tunduk pada kaidah hierarki informasi, penyelarasan tepi (<em>alignment</em>), keseimbangan ruang, ketersediaan ruang putih (<em>white space</em>), alur baca mata (<em>reading flow</em>), serta skala proporsional.</p>\n<hr>\n",
+  "toc": []
+}

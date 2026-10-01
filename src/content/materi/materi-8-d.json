@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-d",
+  "slug": "materi-8-d",
+  "moduleSlug": "materi-8",
+  "letter": "D",
+  "title": "Menentukan Ukuran Kanvas Sebelum Mendesain",
+  "html": "<p>Dimensi kanvas wajib ditetapkan sejak awal proyek sesuai dengan media publikasi yang dituju. Jangan pernah membuat desain pada kanvas bujur sangkar lalu dipaksa melar menjadi spanduk horizontal:</p>\n<ul>\n<li><strong>Instagram Feed Persegi</strong>: 1080 × 1080 px (1:1)</li>\n<li><strong>Instagram Feed Portrait</strong>: 1080 × 1350 px (4:5 - format paling optimal untuk layar ponsel)</li>\n<li><strong>Instagram Story / TikTok / Reels</strong>: 1080 × 1920 px (9:16 vertikal penuh)</li>\n<li><strong>Slide Presentasi / Video Horizontal</strong>: 1920 × 1080 px (16:9 Full HD)</li>\n<li><strong>YouTube Video Thumbnail</strong>: 1280 × 720 px (16:9 HD)</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

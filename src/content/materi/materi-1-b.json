@@ -1,0 +1,30 @@
+{
+  "id": "materi-1-b",
+  "slug": "materi-1-b",
+  "moduleSlug": "materi-1",
+  "letter": "B",
+  "title": "Perbedaan Desain, Fotografi, Video, Dan Komunikasi",
+  "html": "<p>Keempat bidang visual ini saling terhubung erat di industri kreatif, namun masing-masing memiliki fokus dan fungsi yang spesifik.</p>\n<h3 id=\"desain-grafis\" class=\"heading-3\">1. Desain Grafis</h3>\n<p>Desain grafis adalah proses menyampaikan pesan dan memecahkan masalah komunikasi melalui elemen visual seperti poster, logo, banner, brosur, konten media sosial, dan kemasan produk. Seorang desainer grafis selalu berfokus pada hierarki visual dengan memikirkan elemen apa yang harus dilihat pertama kali oleh audiens. Sebagai contoh, pada poster lomba futsal sekolah yang memuat judul acara, hari dan tanggal, lokasi, serta tombol pendaftaran, tulisan <strong>&quot;LOMBA FUTSAL&quot;</strong> dibuat paling besar agar informasi utama langsung tertangkap oleh pembaca sebelum membaca rincian teknis lainnya.</p>\n<h3 id=\"fotografi\" class=\"heading-3\">2. Fotografi</h3>\n<p>Fotografi adalah seni dan teknik menangkap cahaya menggunakan kamera untuk menghasilkan gambar diam. Fotografer tidak sekadar menekan tombol rana (<em>shutter</em>), melainkan secara sadar menentukan objek, posisi dan sudut kamera, pencahayaan, komposisi, serta momentum pengambilan gambar. Sebagai ilustrasi, dua orang siswa yang memotret secangkir kopi yang sama dapat menghasilkan karya yang sangat berbeda: siswa pertama memotret secara acak, sedangkan siswa kedua menata letak cangkir di dekat jendela, membersihkan meja, dan memilih sudut pengambilan gambar yang presisi.</p>\n<h3 id=\"video\" class=\"heading-3\">3. Video</h3>\n<p>Video memanfaatkan rangkaian gambar bergerak yang dipadukan dengan audio dan waktu untuk menyampaikan informasi atau menuturkan cerita. Unsur-unsur pembentuk video meliputi visual, gerakan, durasi/waktu, suara narasi, musik, teks grafis, serta alur cerita. Pada dokumentasi kegiatan sekolah misalnya, alur adegan dapat dirancang berurutan mulai dari gerbang sekolah, siswa memasuki area kampus, aktivitas guru mengajar di kelas, diskusi kelompok, kegiatan ekstrakurikuler, hingga adegan penutup. Rangkaian adegan tersebut menyatu membentuk narasi yang hidup mengenai dinamika kehidupan sekolah.</p>\n<h3 id=\"komunikasi\" class=\"heading-3\">4. Komunikasi</h3>\n<p>Komunikasi adalah inti dan proses penyampaian pesan kepada orang lain. Dalam produksi multimedia, pertanyaan paling mendasar yang harus dijawab adalah: <em>&quot;Pesan apa yang ingin disampaikan?&quot;</em> Ketika sekolah ingin mempromosikan pendaftaran peserta didik baru (SPMB), desainer grafis bertugas membuat poster promosi, fotografer mendokumentasikan fasilitas unggulan, videografer merekam aktivitas belajar, <em>talent</em> bertutur menjelaskan keunggulan sekolah, dan editor menggabungkan seluruh materi tersebut. Seluruh peran tersebut bekerja menuju satu tujuan komunikasi yang sama: meyakinkan calon siswa dan orang tua.</p>\n<p><img src=\"/assets/gambar_contoh_2.jpg\" alt=\"Empat Bidang Multimedia: Desain, Fotografi, Video, Komunikasi\"></p>\n<hr>\n",
+  "toc": [
+    {
+      "id": "desain-grafis",
+      "title": "1. Desain Grafis",
+      "level": 3
+    },
+    {
+      "id": "fotografi",
+      "title": "2. Fotografi",
+      "level": 3
+    },
+    {
+      "id": "video",
+      "title": "3. Video",
+      "level": 3
+    },
+    {
+      "id": "komunikasi",
+      "title": "4. Komunikasi",
+      "level": 3
+    }
+  ]
+}

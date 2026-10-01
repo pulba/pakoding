@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-g",
+  "slug": "materi-8-g",
+  "moduleSlug": "materi-8",
+  "letter": "G",
+  "title": "Implementasi Hierarki Dan Alignment",
+  "html": "<ul>\n<li><strong>Visual Hierarchy</strong>: Atur skala ukuran teks untuk memandu urutan baca mata pemirsa: Judul Acara (48–72 px), Subjudul (24–36 px), Teks Isi / Body (16–24 px), dan Detail Teknis Tambahan (12–16 px).</li>\n<li><strong>Alignment (Penyelarasan Tepi)</strong>: Manfaatkan fitur bantuan <em>Position, Align Left/Center, Tidy Up, Rulers,</em> dan <em>Guides</em> pada Canva untuk memastikan seluruh kotak teks dan elemen visual berpijak pada garis batas yang lurus, rapi, dan konsisten.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

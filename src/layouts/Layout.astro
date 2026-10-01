@@ -1,0 +1,162 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  activeNav?: string;
+}
+
+const { title, description = "Pakoding - Platform Belajar Multimedia Digital", activeNav = "katalog" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Dark Mode Init to prevent FOUC -->
+    <script is:inline>
+      const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+        return 'light';
+      })();
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+      window.localStorage.setItem('theme', theme);
+    </script>
+
+    <!-- Google Fonts: Plus Jakarta Sans & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen flex flex-col antialiased selection:bg-[var(--accent-soft)] selection:text-[var(--accent)] transition-colors duration-300">
+    <!-- Header: Editorial & Minimalist -->
+    <header class="sticky top-0 z-40 w-full border-b border-[var(--border)] bg-[var(--bg-surface)]/90 backdrop-blur-md transition-colors duration-300">
+      <div class="w-full px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-4">
+        <!-- Brand Identity -->
+        <a href="/" class="flex items-center gap-2.5 hover:opacity-80 transition-opacity focus-visible:outline-none">
+          <img src="/logo-hitam.png" alt="Pakoding" class="h-6 w-auto logo-light" />
+          <img src="/logo-putih.png" alt="Pakoding" class="h-6 w-auto logo-dark" />
+        </a>
+
+        <!-- Middle Navigation: Minimalist Quiet Links -->
+        <nav class="hidden md:flex items-center gap-6 text-[13px] font-medium">
+          <a
+            href="/"
+            class={`transition-colors focus-visible:outline-none ${activeNav === 'katalog' ? 'text-[var(--text-primary)] font-bold' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
+          >
+            Katalog Modul
+          </a>
+          <a
+            href="/tentang"
+            class="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors focus-visible:outline-none"
+          >
+            Tentang
+          </a>
+        </nav>
+
+        <!-- Right Action: Clean Minimal Button & Theme Toggle -->
+        <div class="flex items-center gap-3">
+          <!-- Theme Toggle Button -->
+          <button id="theme-toggle" type="button" class="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors p-1.5 rounded-md hover:bg-[var(--bg-elevated)] focus-visible:outline-none" aria-label="Toggle Dark Mode">
+            <!-- Lucide Sun Icon -->
+            <svg id="theme-toggle-light-icon" class="hidden w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Lucide Moon Icon -->
+            <svg id="theme-toggle-dark-icon" class="hidden w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          
+          <a
+            href="/materi/materi-1-a"
+            class="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-[var(--radius-btn)] bg-[var(--btn-primary-bg)] text-[var(--btn-primary-text)] hover:bg-[var(--btn-primary-hover)] text-[13px] font-bold transition-transform hover:-translate-y-px focus-visible:outline-none"
+          >
+            <span>Mulai Belajar</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Slot -->
+    <div class="flex-1 flex flex-col">
+      <slot />
+    </div>
+
+    <!-- Footer: Clean Compact Layout -->
+    <footer id="tentang" class="border-t border-[var(--border)] bg-[var(--bg-surface)] py-6 mt-auto text-xs text-[var(--text-muted)]">
+      <div class="w-full px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        
+        <!-- Left: Logo & Desc -->
+        <div class="flex items-center gap-4">
+          <div class="shrink-0">
+            <img src="/logo-hitam.png" alt="Pakoding" class="h-4 w-auto logo-light opacity-60" />
+            <img src="/logo-putih.png" alt="Pakoding" class="h-4 w-auto logo-dark opacity-60" />
+          </div>
+          <span class="hidden sm:block border-l border-[var(--border)] pl-4">Platform Pembelajaran Multimedia Digital</span>
+        </div>
+
+        <!-- Right: Links -->
+        <div class="flex items-center gap-4 font-medium">
+          <a href="/" class="hover:text-[var(--text-primary)] transition-colors focus-visible:outline-none">Katalog Modul</a>
+          <a href="/tentang" class="hover:text-[var(--text-primary)] transition-colors focus-visible:outline-none">Tentang</a>
+          <a href="/Buku_Ajar_Multimedia.pdf" download class="text-[var(--accent)] hover:underline focus-visible:outline-none">
+            PDF Cetak A4
+          </a>
+          <span>&copy; 2026 PaKoding</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Theme Toggle Logic -->
+    <script is:inline>
+      const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+      const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+      const themeToggleBtn = document.getElementById('theme-toggle');
+
+      if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        themeToggleLightIcon.classList.remove('hidden');
+      } else {
+        themeToggleDarkIcon.classList.remove('hidden');
+      }
+
+      themeToggleBtn.addEventListener('click', function() {
+        themeToggleDarkIcon.classList.toggle('hidden');
+        themeToggleLightIcon.classList.toggle('hidden');
+
+        if (document.documentElement.classList.contains('dark')) {
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem('theme', 'light');
+        } else {
+          document.documentElement.classList.add('dark');
+          localStorage.setItem('theme', 'dark');
+        }
+      });
+    </script>
+  </body>
+</html>

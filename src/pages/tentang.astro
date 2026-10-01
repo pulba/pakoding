@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Tentang PaKoding - Platform Belajar Multimedia Digital" activeNav="tentang">
+  <main class="w-full flex-1 bg-[var(--bg-base)] py-16 sm:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <!-- Header Section -->
+      <section class="space-y-6 text-center">
+        <div class="text-[11px] font-bold tracking-[0.2em] uppercase text-[var(--accent)] mb-2">Tentang Platform</div>
+        <h1 class="font-[var(--font-heading)] text-3xl sm:text-5xl font-black text-[var(--text-primary)] tracking-tight uppercase">
+          Visi <span class="text-[var(--text-muted)]">PaKoding</span>
+        </h1>
+        <p class="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed font-[var(--font-body)] max-w-2xl mx-auto">
+          PaKoding lahir dari gagasan untuk menjembatani kesenjangan antara teori akademis dan kebutuhan industri kreatif modern. Kami merancang kurikulum multimedia yang berfokus pada eksekusi teknis dan estetika visual tingkat tinggi.
+        </p>
+      </section>
+
+      <!-- Content Grid -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-8 rounded-[var(--radius-card)] bg-[var(--bg-surface)] border border-[var(--border)]">
+          <h3 class="font-[var(--font-heading)] text-xl font-bold text-[var(--text-primary)] mb-4">Fokus & Kurikulum</h3>
+          <p class="text-[14px] text-[var(--text-secondary)] leading-relaxed">
+            Modul-modul pembelajaran dirancang terstruktur mulai dari dasar-dasar desain grafis, fotografi, videografi, hingga kemampuan non-teknis seperti public speaking. Semua disusun agar setiap siswa dapat memproduksi aset media kelas profesional.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-[var(--radius-card)] bg-[var(--bg-surface)] border border-[var(--border)]">
+          <h3 class="font-[var(--font-heading)] text-xl font-bold text-[var(--text-primary)] mb-4">Aksesibilitas</h3>
+          <p class="text-[14px] text-[var(--text-secondary)] leading-relaxed">
+            Platform ini disusun sebagai *"Buku Ajar Digital"*. Setiap modul didesain seringkas mungkin namun kaya akan substansi. Antarmuka (UI) sengaja dibangun menggunakan prinsip *distraction-free editorial design* agar fokus pembelajaran tidak terpecah.
+          </p>
+        </div>
+      </section>
+      
+      <!-- CTA -->
+      <section class="text-center pt-8 border-t border-[var(--border)]">
+        <h2 class="font-[var(--font-heading)] text-2xl font-bold text-[var(--text-primary)] mb-6">Siap untuk memulai?</h2>
+        <a href="/" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-[var(--radius-btn)] bg-[var(--btn-primary-bg)] text-[var(--btn-primary-text)] hover:bg-[var(--btn-primary-hover)] text-[14px] font-bold transition-transform hover:-translate-y-0.5 focus-visible:outline-none shadow-sm">
+          Kembali ke Katalog
+        </a>
+      </section>
+
+    </div>
+  </main>
+</Layout>

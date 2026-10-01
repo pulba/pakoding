@@ -1,0 +1,9 @@
+{
+  "id": "materi-9-h",
+  "slug": "materi-9-h",
+  "moduleSlug": "materi-9",
+  "letter": "H",
+  "title": "Manajemen Folder Proyek Kerja",
+  "html": "<p>Tim wajib mendokumentasikan aset secara rapi di dalam drive bersama menggunakan hierarki folder baku:</p>\n<pre><code class=\"language-text\">PROJECT_TERPADU_MULTIMEDIA/\n├── 01_BRIEF/          (Dokumen brief tertulis dari klien)\n├── 02_PREPRODUCTION/  (Naskah skrip naskah, storyboard, shot list)\n├── 03_RAW_PHOTO/      (Seluruh jepretan mentah kamera)\n├── 04_SELECTED_PHOTO/ (Hasil kurasi 10 foto terbaik)\n├── 05_RAW_VIDEO/      (Klip mentah terbagi folder A-Roll dan B-Roll)\n├── 06_AUDIO/          (Rekaman mikrofon terpisah, musik lisensi, SFX, ambience)\n├── 07_DESIGN_CANVA/   (File ekspor poster, carousel, dan thumbnail)\n├── 08_PROJECT_EDIT/   (File proyek kerja CapCut)\n└── 09_FINAL_DELIVERY/ (Paket produk final siap publikasi)\n</code></pre>\n<hr>\n",
+  "toc": []
+}

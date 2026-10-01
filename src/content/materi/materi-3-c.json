@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-c",
+  "slug": "materi-3-c",
+  "moduleSlug": "materi-3",
+  "letter": "C",
+  "title": "Bagaimana Kamera Menghasilkan Gambar",
+  "html": "<p>Secara mekanis dan digital, proses penciptaan foto berlangsung secara bertahap:</p>\n<pre><code class=\"language-text\">Cahaya\n?\nLensa\n?\nSensor\n?\nData gambar\n?\nProcessing\n?\nFoto\n</code></pre>\n<p>Pada kamera digital, berkas cahaya luar masuk melewati elemen lensa, kemudian ditangkap oleh sensor gambar (<em>image sensor</em>) yang mengubah intensitas cahaya menjadi data sinyal digital. Pada smartphone, proses ini disempurnakan oleh teknologi <em>computational photography</em>, di mana prosesor perangkat secara instan menyempurnakan ketajaman, rentang dinamis, dan warna sehingga foto langsung siap dinikmati.</p>\n<p>![alt text]/image-3.png</p>\n<hr>\n",
+  "toc": []
+}

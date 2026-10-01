@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-d",
+  "slug": "materi-2-d",
+  "moduleSlug": "materi-2",
+  "letter": "D",
+  "title": "Elemen Desain",
+  "html": "<p>Elemen desain adalah bahan mentah visual yang digunakan untuk membangun komposisi:</p>\n<ol>\n<li><strong>Line (Garis)</strong>: Berfungsi sebagai pembatas area, penuntun arah baca, dekorasi penyeimbang, atau penanda struktur informasi.</li>\n<li><strong>Shape (Bentuk)</strong>: Dimanfaatkan sebagai latar belakang (<em>background</em>), wadah penampung teks (<em>container</em>), tombol aksi (<em>button</em>), aksen penegas (<em>highlight</em>), maupun ikonografi.</li>\n<li><strong>Image (Gambar/Foto)</strong>: Elemen visual kunci yang dapat bertindak sebagai subjek utama, latar belakang suasana, maupun bukti visual pendukung pesan.</li>\n<li><strong>Typography (Tipografi)</strong>: Penataan teks yang harus memperhitungkan ukuran, ketebalan (<em>weight</em>), jarak spasi, perataan (<em>alignment</em>), dan hierarki agar pesan mudah dicerna.</li>\n<li><strong>Color (Warna)</strong>: Berperan memikat perhatian, mengelompokkan kategori informasi, membangun identitas visual, dan menciptakan kontras keterbacaan.</li>\n<li><strong>Space (Ruang)</strong>: Area kosong yang memberi jeda antarobjek agar mata pembaca tidak lelah dan fokus tertuju pada elemen kunci.</li>\n<li><strong>Icon (Ikon)</strong>: Simbol grafis ringkas yang mempercepat pemahaman informasi, seperti ?? untuk lokasi, ?? untuk tanggal, ? untuk waktu, dan ? untuk kontak narahubung. Dalam desain profesional, gaya ikon harus konsisten (misalnya konsisten <em>line icon</em> atau <em>solid icon</em>).</li>\n</ol>\n<p><img src=\"/assets/materi2_elemen_desain.jpg\" alt=\"Elemen Desain Grafis\"></p>\n<hr>\n",
+  "toc": []
+}

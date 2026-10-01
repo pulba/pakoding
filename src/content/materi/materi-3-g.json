@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-g",
+  "slug": "materi-3-g",
+  "moduleSlug": "materi-3",
+  "letter": "G",
+  "title": "Aperture (Bukaan Lensa)",
+  "html": "<p>Aperture adalah mekanisme diafragma pada lensa yang membuka atau menutup untuk mengatur volume cahaya yang masuk ke sensor. Aperture ditulis menggunakan satuan nilai <em>f-number</em> (misalnya f/1.8, f/2.8, f/4, f/5.6, f/8, f/11, f/16).</p>\n<p>Kaidah penting yang wajib dipahami siswa:</p>\n<ul>\n<li><strong>Angka f kecil (misal f/1.8)</strong>: Bukaan diafragma fisik terbuka sangat lebar, memasukkan banyak cahaya, dan menghasilkan ruang tajam sempit (<em>shallow depth of field</em> / latar belakang blur atau bokeh). Sangat ideal untuk foto potret wajah.</li>\n<li><strong>Angka f besar (misal f/11 atau f/16)</strong>: Bukaan diafragma fisik menyempit, memasukkan lebih sedikit cahaya, dan menghasilkan ruang tajam luas (<em>deep depth of field</em> / seluruh bidang dari depan hingga belakang tampak tajam). Sangat ideal untuk foto pemandangan (<em>landscape</em>) atau arsitektur gedung.</li>\n</ul>\n<p>![alt text]/image-5.png</p>\n<hr>\n",
+  "toc": []
+}

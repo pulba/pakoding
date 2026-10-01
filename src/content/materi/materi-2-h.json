@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-h",
+  "slug": "materi-2-h",
+  "moduleSlug": "materi-2",
+  "letter": "H",
+  "title": "Tipografi Lanjutan",
+  "html": "<p>Setelah mengenal kategori dasar huruf, siswa mendalami penerapan tipografi tingkat lanjutan:</p>\n<ol>\n<li><strong>Font Family</strong>: Satu keluarga rupa huruf lengkap yang memiliki variasi bobot selaras, seperti <em>Regular, Medium, Semibold, Bold,</em> dan <em>Italic</em>.</li>\n<li><strong>Font Pairing</strong>: Seni memadukan maksimal dua keluarga huruf yang berbeda namun harmonis. Contoh kombinasi aman bagi pemula:<ul>\n<li>Judul menggunakan <em>Sans Serif Bold</em>, isi teks menggunakan <em>Sans Serif Regular</em>.</li>\n<li>Judul menggunakan <em>Serif Bold</em>, isi teks menggunakan <em>Sans Serif Regular</em>.<br><em>Hindari penggunaan lebih dari dua jenis font keluarga dalam satu karya.</em></li>\n</ul>\n</li>\n<li><strong>Hierarki Ukuran Tipografi</strong>: Pembagian skala ukuran proporsional, misalnya Judul (48 px), Subjudul (24 px), dan Teks Isi/Body (16 px).</li>\n<li><strong>Line Height (Leading)</strong>: Jarak vertikal antarbaris teks. Jika terlalu rapat teks bertumpuk sulit dibaca; jika terlalu renggang hubungan antarkalimat terasa terputus.</li>\n<li><strong>Letter Spacing (Tracking &amp; Kerning)</strong>: Pengaturan kerapatan horizontal antarhuruf untuk memberikan kesan lega atau padat pada judul kapital.</li>\n<li><strong>Readability</strong>: Keterbacaan teks adalah prioritas mutlak. Jangan pernah menggunakan font dekoratif kaligrafi yang rumit untuk paragraf isi yang panjang.</li>\n</ol>\n<hr>\n",
+  "toc": []
+}

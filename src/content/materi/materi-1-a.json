@@ -1,0 +1,25 @@
+{
+  "id": "materi-1-a",
+  "slug": "materi-1-a",
+  "moduleSlug": "materi-1",
+  "letter": "A",
+  "title": "Apa Itu Multimedia",
+  "html": "<h3 id=\"pengertian-multimedia\" class=\"heading-3\">1. Pengertian Multimedia</h3>\n<p>Secara etimologi, kata multimedia terdiri dari kata <em>multi</em> yang berarti banyak dan <em>media</em> yang berarti sarana untuk menyampaikan informasi. Secara istilah, multimedia adalah penggunaan beberapa jenis media secara terpadu untuk menyampaikan informasi, pesan, atau cerita. Media tersebut dapat berupa teks, gambar, foto, ilustrasi, audio, video, animasi, serta grafik.</p>\n<p>Sebagai contoh sederhana, bayangkan seorang guru membuat pengumuman: <em>&quot;Besok sekolah libur.&quot;</em> Jika pesan tersebut hanya ditulis di papan tulis, media yang digunakan hanyalah teks. Namun, jika dibuat menjadi poster dengan tulisan, warna, dan foto, beberapa media visual telah digabungkan. Lebih jauh lagi, jika informasi tersebut disajikan dalam bentuk video yang memuat tulisan, gambar, musik latar, dan suara narator yang menjelaskan, konten tersebut telah menjadi produk multimedia yang utuh.</p>\n<h3 id=\"multimedia-di-sekitar-kita\" class=\"heading-3\">2. Multimedia di Sekitar Kita</h3>\n<p>Dalam kehidupan sehari-hari, siswa sebenarnya berinteraksi dengan produk multimedia hampir setiap saat. Contohnya dapat ditemukan pada poster kegiatan sekolah, video TikTok, konten Instagram, video YouTube, iklan, film, presentasi, website, game, siaran berita televisi, hingga video pembelajaran. </p>\n<p>Ketika menonton sebuah video pendek di media sosial seperti TikTok, di dalamnya terdapat perpaduan berbagai elemen visual dan audio sekaligus: video utama, musik latar, teks keterangan, rekaman suara, efek visual, serta gambar pendukung. Dari contoh tersebut, terlihat jelas bahwa sebuah konten modern tersusun atas integrasi berbagai elemen media.</p>\n<h3 id=\"fungsi-multimedia\" class=\"heading-3\">3. Fungsi Multimedia</h3>\n<p>Multimedia memiliki beragam fungsi praktis dalam komunikasi sehari-hari, antara lain:</p>\n<ul>\n<li><strong>Memberikan informasi</strong>: misalnya pada poster jadwal ujian.</li>\n<li><strong>Memberikan pendidikan</strong>: misalnya pada video tutorial dan materi ajar interaktif.</li>\n<li><strong>Memberikan hiburan</strong>: misalnya pada film dan video komedi.</li>\n<li><strong>Melakukan promosi</strong>: misalnya pada video profil atau promosi sekolah.</li>\n<li><strong>Mendokumentasikan kegiatan</strong>: misalnya pada dokumentasi foto kegiatan pramuka.</li>\n<li><strong>Menceritakan sesuatu</strong>: misalnya pada video dokumenter perjalanan <em>study tour</em>.</li>\n</ul>\n<p><img src=\"/assets/gambar_contoh_1.jpg\" alt=\"Mengenal Unsur-Unsur Multimedia\"></p>\n<hr>\n",
+  "toc": [
+    {
+      "id": "pengertian-multimedia",
+      "title": "1. Pengertian Multimedia",
+      "level": 3
+    },
+    {
+      "id": "multimedia-di-sekitar-kita",
+      "title": "2. Multimedia di Sekitar Kita",
+      "level": 3
+    },
+    {
+      "id": "fungsi-multimedia",
+      "title": "3. Fungsi Multimedia",
+      "level": 3
+    }
+  ]
+}

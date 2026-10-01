@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-i",
+  "slug": "materi-3-i",
+  "moduleSlug": "materi-3",
+  "letter": "I",
+  "title": "Iso (Sensitivitas Sensor)",
+  "html": "<p>ISO menunjukkan tingkat sensitivitas sensor kamera terhadap intensitas cahaya yang masuk (contoh nilai standar: ISO 100, 400, 800, 1600, hingga 3200). </p>\n<p>Nilai ISO rendah (ISO 100) digunakan pada kondisi pencahayaan melimpah di luar ruangan untuk menghasilkan kualitas gambar yang sangat bersih, jernih, dan tajam. Sebaliknya, menaikkan nilai ISO (ISO 1600 ke atas) sangat membantu ketika memotret di ruangan temaram tanpa flash, namun memiliki konsekuensi memunculkan bintik-bintik kasar digital (<em>noise</em>) yang dapat menurunkan detail ketajaman gambar.</p>\n<p>![alt text]/image-7.png</p>\n<hr>\n",
+  "toc": []
+}

@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+@theme {
+  /* Radii - Subtle & Precise */
+  --radius-subtle: 0.25rem;          /* 4px */
+  --radius-card: 0.5rem;             /* 8px */
+  --radius-btn: 0.5rem;              /* 8px */
+  --radius-section: 0.75rem;         /* 12px */
+  --radius-pill: 9999px;
+
+  /* Typography */
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-heading: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-body: "Poppins", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  /* Light Mode Tokens (Editorial) */
+  --bg-base: #F8FAFC;
+  --bg-section: #F1F5F9;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #FFFFFF;
+  
+  --border: #E2E8F0;
+  --border-hover: #CBD5E1;
+
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-subtle: #94A3B8;
+
+  --accent: #22C55E;
+  --accent-soft: rgba(34, 197, 94, 0.12);
+
+  --btn-primary-bg: #0F172A;
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover: #1E293B;
+}
+
+.dark {
+  /* Dark Mode Tokens (Premium Digital Editorial) */
+  --bg-base: #0B1220;
+  --bg-section: #0F172A;
+  --bg-surface: #162033;
+  --bg-elevated: #1C293D;
+  
+  --border: #2A3950;
+  --border-hover: #3B4F6B;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-subtle: #64748B;
+
+  --accent: #22C55E;
+  --accent-soft: rgba(34, 197, 94, 0.12);
+
+  --btn-primary-bg: #FFFFFF;
+  --btn-primary-text: #0F172A;
+  --btn-primary-hover: #F1F5F9;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure focus states are accessible */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Custom logo display handlers to guarantee correct logo based on theme class */
+html:not(.dark) .logo-dark { display: none !important; }
+html.dark .logo-light { display: none !important; }
+
+/* Minimalist Reading Typography */
+.markdown-body {
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  line-height: 1.85;
+  font-size: 10pt;
+}
+
+.markdown-body h1 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 800;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.markdown-body h2 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.markdown-body h3 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body h4 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body p {
+  margin-bottom: 1.5rem;
+}
+
+.markdown-body a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--border-hover);
+  transition: text-decoration-color 0.2s ease;
+}
+
+.markdown-body a:hover {
+  text-decoration-color: var(--text-primary);
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-body li::marker {
+  color: var(--text-muted);
+}
+
+.markdown-body strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--border-hover);
+  padding-left: 1.25rem;
+  margin: 2rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Rich Component: Tujuan Pembelajaran */
+.block-objective {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: var(--radius-card);
+}
+.block-objective-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.block-objective p:last-child { margin-bottom: 0; }
+
+/* Rich Component: Praktik Sederhana */
+.block-practice {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: var(--radius-card);
+  position: relative;
+  overflow: hidden;
+}
+.block-practice::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background-color: var(--text-primary);
+}
+.block-practice-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+.block-practice p:last-child { margin-bottom: 0; }
+
+/* Minimalist Table */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.9em;
+}
+.markdown-body th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--border);
+  padding: 0.75rem 1rem;
+}
+.markdown-body td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Minimalist Code */
+.markdown-body pre {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin: 2rem 0;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+.markdown-body p code, .markdown-body li code {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.85em;
+  color: var(--text-primary);
+}
+
+/* Images */
+.markdown-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-card);
+  margin: 2.5rem auto;
+  display: block;
+  border: 1px solid var(--border);
+}
+
+/* Code block wrapper for copy button */
+.code-block-wrapper {
+  position: relative;
+  margin: 2rem 0;
+}
+.code-block-wrapper pre {
+  margin: 0;
+}
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-subtle);
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.code-block-wrapper:hover .copy-btn {
+  opacity: 1;
+}
+.copy-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+}

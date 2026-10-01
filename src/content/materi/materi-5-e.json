@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-e",
+  "slug": "materi-5-e",
+  "moduleSlug": "materi-5",
+  "letter": "E",
+  "title": "Mengenal Antarmuka Capcut",
+  "html": "<p>Saat mulai mengoperasikan perangkat lunak penyuntingan, kenalkan area kerja fungsional secara bertahap tanpa membebani siswa dengan seluruh tombol sekaligus:</p>\n<ul>\n<li><strong>Media Panel</strong>: Tempat menampung seluruh aset video, foto, dan audio yang telah diimpor.</li>\n<li><strong>Preview Window</strong>: Layar monitor pemutar untuk meninjau hasil susunan video secara langsung.</li>\n<li><strong>Timeline Canvas</strong>: Area kerja utama tempat menyusun klip secara horizontal berdasarkan linimasa waktu.</li>\n<li><strong>Video Track</strong>: Jalur utama dan lapisan <em>overlay</em> untuk menempatkan klip gambar bergerak.</li>\n<li><strong>Audio Track</strong>: Jalur khusus untuk mengelola suara vokal, musik pengiring, dan efek suara.</li>\n<li><strong>Toolbar Menu</strong>: Tombol fungsi pemotong (<em>split/trim</em>), teks judul, transisi antar-klip, filter penyesuaian warna (<em>adjust</em>), dan tombol <em>export</em>.</li>\n</ul>\n<p>![alt text]/image-23.png</p>\n<hr>\n",
+  "toc": []
+}

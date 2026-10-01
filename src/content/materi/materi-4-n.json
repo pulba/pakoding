@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-n",
+  "slug": "materi-4-n",
+  "moduleSlug": "materi-4",
+  "letter": "N",
+  "title": "Pengaturan Ruang Kepala (Headroom)",
+  "html": "<p><em>Headroom</em> adalah jarak ruang kosong vertikal antara puncak kepala subjek dan garis tepi atas frame.</p>\n<ul>\n<li><strong>Headroom terlalu sempit</strong>: Bagian atas kepala subjek tampak terpotong canggung dan menimbulkan rasa sesak.</li>\n<li><strong>Headroom terlalu lebar</strong>: Wajah subjek tampak melorot ke bawah dan kanvas visual terasa kosong hampa.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

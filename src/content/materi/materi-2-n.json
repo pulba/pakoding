@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-n",
+  "slug": "materi-2-n",
+  "moduleSlug": "materi-2",
+  "letter": "N",
+  "title": "Desain Buruk Vs Desain Baik",
+  "html": "<p>Pendekatan pedagogis terbaik adalah melatih siswa mendeteksi kesalahan desain secara mandiri melalui komparasi visual, bukan sekadar melabeli karya itu jelek.</p>\n<p>Ciri-ciri kesalahan umum pemula:</p>\n<ul>\n<li>Menggunakan terlalu banyak jenis font yang bertabrakan.</li>\n<li>Tidak memiliki hierarki visual (semua teks sama besar atau berebut perhatian).</li>\n<li>Kontras warna lemah antara teks dan latar belakang sehingga sulit dibaca.</li>\n<li>Informasi terlalu padat tanpa adanya ruang jeda (<em>white space</em>).</li>\n<li>Memakai foto berkualitas rendah, pecah, atau buram (<em>pixelated</em>).</li>\n<li>Garis tepi elemen berantakan tanpa acuan <em>alignment</em> yang jelas.</li>\n<li>Tombol aksi (<em>Call to Action</em>) tenggelam dan sulit ditemukan.</li>\n</ul>\n<p>![alt text]/image-2.png</p>\n<hr>\n",
+  "toc": []
+}

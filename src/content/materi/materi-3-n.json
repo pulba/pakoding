@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-n",
+  "slug": "materi-3-n",
+  "moduleSlug": "materi-3",
+  "letter": "N",
+  "title": "Arah Cahaya (Lighting Direction)",
+  "html": "<ul>\n<li><strong>Front Light</strong>: Cahaya datang dari depan subjek (searah lensa kamera). Karakteristiknya menghasilkan pencahayaan merata dan minim bayangan, namun cenderung membuat subjek tampak datar (<em>flat</em>).</li>\n<li><strong>Side Light</strong>: Cahaya jatuh dari sudut samping sekitar 90 derajat. Sangat efektif menonjolkan tekstur permukaan, garis bentuk, dan menghadirkan kedalaman dimensi tiga dimensi yang dramatis.</li>\n<li><strong>Backlight</strong>: Sumber cahaya berada tepat di belakang subjek menghadap kamera. Menghasilkan garis kilau keemasan pada tepi rambut/tubuh (<em>rim light</em>) atau menciptakan siluet dramatis jika subjek sengaja dibuat gelap.</li>\n<li><strong>Top Light</strong>: Cahaya datang tepat dari atas subjek (seperti matahari tepat tengah hari). Sering menghasilkan bayangan kantung mata yang tajam di bawah alis dan hidung sehingga perlu diantisipasi.</li>\n</ul>\n<p>![alt text]/image-8.png</p>\n<hr>\n",
+  "toc": []
+}

@@ -1,0 +1,216 @@
+---
+import Layout from '../layouts/Layout.astro';
+import materiList from '../data/materi.json';
+
+const regularMateri = materiList.filter((m: any) => !m.isProject);
+const projectMateri = materiList.find((m: any) => m.isProject) || materiList[materiList.length - 1];
+
+const categories = [
+  'Semua',
+  'Dasar & Konsep',
+  'Desain Grafis',
+  'Fotografi',
+  'Videografi',
+  'Editing Video',
+  'Public Speaking',
+  'Storytelling',
+  'Praktik Digital'
+];
+---
+
+<Layout title="Pakoding - Platform Belajar Multimedia Digital" activeNav="katalog">
+  <main class="w-full flex-1">
+    
+    <!-- ========================================================
+         1. HERO: Editorial Typography & Grid Background
+         ======================================================== -->
+    <section class="border-b border-[var(--border)] bg-[var(--bg-section)] pt-20 pb-24 relative overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row justify-between items-center gap-12">
+        <div class="max-w-2xl space-y-6">
+          <div class="text-[11px] font-bold tracking-[0.2em] uppercase text-[var(--text-subtle)] mb-2">Website Belajar</div>
+          <h1 class="font-[var(--font-heading)] text-4xl sm:text-5xl lg:text-[4rem] font-black text-[var(--text-primary)] tracking-tight leading-[1.05] uppercase">
+            Multimedia Digital
+          </h1>
+          <p class="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed font-[var(--font-body)] max-w-xl">
+            Panduan produksi media terpadu: dari estetika visual dasar, teknik kamera, pasca-produksi digital, hingga eksekusi kampanye kreatif komprehensif.
+          </p>
+          
+          <div class="flex flex-wrap items-center gap-4 pt-2 pb-4 text-[13px] font-medium text-[var(--text-muted)]">
+            <span class="text-[var(--text-primary)] font-bold">09</span> Modul
+            <span class="text-[var(--border-hover)]">&bull;</span>
+            <span class="text-[var(--text-primary)] font-bold">70+</span> Topik
+            <span class="text-[var(--border-hover)]">&bull;</span>
+            <span class="text-[var(--accent)] font-bold">01</span> Project
+          </div>
+
+          <a href="#katalog" class="inline-flex items-center gap-2 px-6 py-3 rounded-[var(--radius-btn)] bg-[var(--btn-primary-bg)] text-[var(--btn-primary-text)] hover:bg-[var(--btn-primary-hover)] text-[13px] font-bold transition-transform hover:-translate-y-0.5 focus-visible:outline-none shadow-sm group">
+            Mulai Belajar
+          </a>
+        </div>
+        
+        <!-- Abstract 09 Graphic for Hero -->
+        <div class="hidden md:flex items-center justify-center select-none opacity-5 dark:opacity-10 absolute right-8 top-1/2 -translate-y-1/2 pointer-events-none">
+          <span class="font-[var(--font-heading)] font-black text-[300px] leading-none text-[var(--text-primary)]">09</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         2. KATALOG MODUL: Filters, Search, and Grid
+         ======================================================== -->
+    <section id="katalog" class="py-16 sm:py-24 bg-[var(--bg-base)]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        
+      
+
+        <!-- Filter Tabs -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+          {
+            categories.map((cat, index) => {
+              const isActive = index === 0;
+              return (
+                <button
+                  class={`filter-btn shrink-0 px-4 py-1.5 rounded-[var(--radius-pill)] text-[13px] font-medium transition-colors border border-transparent focus-visible:outline-none ${
+                    isActive
+                      ? 'bg-[var(--btn-primary-bg)] text-[var(--btn-primary-text)] font-semibold'
+                      : 'bg-transparent text-[var(--text-muted)] hover:bg-[var(--bg-surface)] hover:text-[var(--text-primary)]'
+                  }`}
+                  data-category={cat}
+                >
+                  {cat}
+                </button>
+              );
+            })
+          }
+        </div>
+
+        <!-- Grid Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+          {
+            regularMateri.map((materi: any) => (
+              <a 
+                href={`/materi/${materi.topics[0].slug}`} 
+                class="module-card group block relative rounded-[var(--radius-card)] bg-[var(--bg-surface)] border border-[var(--border)] p-6 transition-all duration-300 hover:bg-[var(--bg-elevated)] hover:border-[var(--border-hover)] hover:-translate-y-1 overflow-hidden focus-visible:outline-none"
+                data-module-category={materi.category}
+                data-search-text={`${materi.title} ${materi.description}`.toLowerCase()}
+              >
+                <!-- Watermark -->
+                <div class="absolute -right-4 -bottom-6 text-[90px] font-black text-[var(--text-primary)] opacity-[0.02] dark:opacity-[0.03] select-none pointer-events-none font-[var(--font-heading)] transition-transform duration-300 group-hover:scale-110 group-hover:opacity-[0.04]">
+                  {materi.displayNumber}
+                </div>
+                
+                <div class="relative z-10 flex flex-col h-full">
+                  <div class="font-mono text-[11px] font-bold text-[var(--text-subtle)] mb-3 tracking-widest uppercase">
+                    Modul {materi.displayNumber}
+                  </div>
+                  <h3 class="font-[var(--font-heading)] text-[18px] font-bold text-[var(--text-primary)] mb-2 leading-snug">
+                    {materi.title}
+                  </h3>
+                  <p class="text-[13px] text-[var(--text-muted)] leading-relaxed line-clamp-3 mb-6">
+                    {materi.description}
+                  </p>
+                  
+                  <div class="mt-auto pt-4 border-t border-[var(--border)] flex items-center text-[13px] font-bold text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
+                    <span>Mulai &rarr;</span>
+                  </div>
+                </div>
+              </a>
+            ))
+          }
+        </div>
+
+        <!-- ========================================================
+             3. CAPSTONE PROJECT: Destination Section
+             ======================================================== -->
+        {projectMateri && (
+          <div class="pt-16 pb-8">
+            <a 
+              href={`/materi/${projectMateri.topics[0].slug}`} 
+              class="group block relative rounded-[var(--radius-card)] bg-[var(--bg-surface)] border border-[var(--accent-soft)] p-8 sm:p-10 transition-all duration-300 hover:bg-[var(--bg-elevated)] hover:border-[var(--accent)] hover:-translate-y-1 overflow-hidden focus-visible:outline-none"
+            >
+              <!-- Accent Glow -->
+              <div class="absolute inset-0 bg-gradient-to-br from-[var(--accent-soft)]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+              <div class="flex flex-col md:flex-row md:items-center justify-between gap-8 relative z-10">
+                <div class="space-y-4 max-w-2xl">
+                  <div class="text-[11px] font-bold tracking-[0.15em] text-[var(--accent)] uppercase">
+                    Project Akhir Terpadu
+                  </div>
+                  <h3 class="font-[var(--font-heading)] text-2xl font-bold text-[var(--text-primary)]">
+                    {projectMateri.displayNumber}. {projectMateri.title}
+                  </h3>
+                  <p class="text-[14px] text-[var(--text-secondary)] leading-relaxed">
+                    {projectMateri.description}
+                  </p>
+                </div>
+                <div class="shrink-0 mt-4 md:mt-0">
+                  <div class="inline-flex items-center gap-1.5 px-6 py-3 rounded-[var(--radius-btn)] bg-[var(--btn-primary-bg)] text-[var(--btn-primary-text)] group-hover:bg-[var(--btn-primary-hover)] text-[13px] font-bold transition-transform group-hover:-translate-y-px">
+                    Multimedia Terpadu &rarr;
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        )}
+
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script is:inline>
+  // Filter & Search Logic
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const moduleCards = document.querySelectorAll('.module-card');
+  const searchInput = document.getElementById('search-input');
+  
+  let currentCategory = 'Semua';
+  let searchQuery = '';
+
+  function updateGrid() {
+    moduleCards.forEach(card => {
+      const cardCategory = card.getAttribute('data-module-category');
+      const searchText = card.getAttribute('data-search-text');
+      
+      const matchesCategory = currentCategory === 'Semua' || cardCategory === currentCategory;
+      const matchesSearch = searchText.includes(searchQuery);
+      
+      if (matchesCategory && matchesSearch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update UI active state
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-[var(--btn-primary-bg)]', 'text-[var(--btn-primary-text)]', 'font-semibold');
+        b.classList.add('bg-transparent', 'text-[var(--text-muted)]');
+      });
+      btn.classList.remove('bg-transparent', 'text-[var(--text-muted)]');
+      btn.classList.add('bg-[var(--btn-primary-bg)]', 'text-[var(--btn-primary-text)]', 'font-semibold');
+      
+      // Update filter
+      currentCategory = btn.getAttribute('data-category');
+      updateGrid();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      updateGrid();
+    });
+
+    // Handle CMD+K shortcut
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+  }
+</script>

@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-i",
+  "slug": "materi-5-i",
+  "moduleSlug": "materi-5",
+  "letter": "I",
+  "title": "Teknik Dasar Pemotongan: Cut, Trim, Dan Split",
+  "html": "<ul>\n<li><strong>Split</strong>: Memotong satu klip panjang menjadi dua bagian terpisah pada posisi jarum pemutar (<em>playhead</em>).</li>\n<li><strong>Trim</strong>: Menggeser dan memangkas bagian awal (<em>head</em>) atau akhir (<em>tail</em>) dari klip yang tidak diperlukan untuk memadatkan durasi.</li>\n<li><strong>Cut</strong>: Sambungan langsung perpindahan dari akhir satu shot menuju awal shot berikutnya tanpa jeda.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

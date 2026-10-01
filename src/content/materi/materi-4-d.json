@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-d",
+  "slug": "materi-4-d",
+  "moduleSlug": "materi-4",
+  "letter": "D",
+  "title": "Anatomi Bingkai (Frame)",
+  "html": "<p>Frame adalah batas bidang pandang visual yang disaksikan oleh penonton di layar monitor. Dalam proses produksi, frame menjadi kanvas kerja tempat juru kamera menata tata letak elemen visual. </p>\n<p>Hal-hal krusial yang wajib diperhatikan dalam pembingkaian:</p>\n<ul>\n<li>Keseimbangan ruang kosong di atas kepala subjek (<em>headroom</em>).</li>\n<li>Ketersediaan ruang kosong ke arah pandangan mata subjek (<em>looking room</em>).</li>\n<li>Karakter dan keteraturan latar belakang (<em>background</em>).</li>\n<li>Komposisi latar depan pembingkai (<em>foreground</em>).</li>\n<li>Momen objek masuk ke dalam bingkai (<em>entry frame</em>) dan keluar meninggalkan bingkai (<em>exit frame</em>).</li>\n</ul>\n<p>![alt text]/image-15.png</p>\n<hr>\n",
+  "toc": []
+}

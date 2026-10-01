@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-p",
+  "slug": "materi-5-p",
+  "moduleSlug": "materi-5",
+  "letter": "P",
+  "title": "Audio Mixing Dan Ducking",
+  "html": "<p>Prinsip utama tata suara video: <strong>Suara Vokal Utama Adalah Raja</strong>.</p>\n<ul>\n<li>Saat narator atau narasumber berbicara, volume musik pengiring wajib diturunkan secara halus (<em>audio ducking</em>) hingga berkisar antara -18 dB sampai -24 dB di bawah vokal.</li>\n<li>Ketika narator berhenti berbicara dan jeda adegan berlangsung, volume musik pengiring dinaikkan kembali secara bertahap (<em>fade in</em>) untuk mengisi ruang dengar penonton.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

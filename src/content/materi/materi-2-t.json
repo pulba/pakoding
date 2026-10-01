@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-t",
+  "slug": "materi-2-t",
+  "moduleSlug": "materi-2",
+  "letter": "T",
+  "title": "Rubrik Penilaian Desain",
+  "html": "<p>Penilaian ditekankan pada pertimbangan rasional dan fungsional di balik keputusan desain, bukan selera subjektif:</p>\n<pre><code class=\"language-text\">Pemahaman brief         : 20%\nHierarchy visual        : 20%\nLayout dan alignment    : 15%\nTypography              : 15%\nWarna &amp; kontras         : 10%\nKomposisi visual        : 10%\nKreativitas gagasan     :  5%\nPresentasi &amp; argumentasi:  5%\nTotal                   : 100%\n</code></pre>\n<hr>\n",
+  "toc": []
+}

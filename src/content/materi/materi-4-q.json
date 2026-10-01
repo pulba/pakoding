@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-q",
+  "slug": "materi-4-q",
+  "moduleSlug": "materi-4",
+  "letter": "Q",
+  "title": "Tiga Lapisan Kedalaman (Depth Layers)",
+  "html": "<p>Membagi bidang bingkai menjadi tiga lapisan kedalaman akan menghasilkan video yang tampak sinematik dan berdimensi:</p>\n<pre><code class=\"language-text\">FOREGROUND (Latar Depan)\n↓\nSUBJECT (Subjek Utama)\n↓\nBACKGROUND (Latar Belakang)\n</code></pre>\n<ul>\n<li><strong>Foreground</strong>: Elemen terdekat dengan kamera (misalnya dedaunan blur di sudut kanvas atau bahu teman yang membelakangi kamera).</li>\n<li><strong>Subject</strong>: Tokoh atau objek utama yang berada pada titik fokus paling tajam.</li>\n<li><strong>Background</strong>: Lingkungan latar belakang yang mempertegas konteks lokasi peristiwa.</li>\n</ul>\n<h2 id=\"alt-textimage-21png\" class=\"heading-2\">![alt text]/image-21.png</h2>\n",
+  "toc": []
+}

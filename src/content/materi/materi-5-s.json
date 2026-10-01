@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-s",
+  "slug": "materi-5-s",
+  "moduleSlug": "materi-5",
+  "letter": "S",
+  "title": "Efek Visual Dan Modifikasi Kecepatan",
+  "html": "<ul>\n<li><strong>Efek Visual</strong>: Manfaatkan efek hanya untuk kebutuhan narasi yang spesifik (misalnya efek blur pada latar belakang atau zoom lambat untuk menonjolkan dokumen).</li>\n<li><strong>Speed Ramping (Kecepatan Dinamis)</strong>: Mengatur variasi percepatan klip (misalnya awal lari cepat, lalu diperlambat menjadi <em>slow motion</em> halus pada saat mencetak gol, kemudian dipercepat kembali).</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

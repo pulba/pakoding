@@ -1,0 +1,9 @@
+{
+  "id": "materi-2-l",
+  "slug": "materi-2-l",
+  "moduleSlug": "materi-2",
+  "letter": "L",
+  "title": "Membuat Poster Dari Brief",
+  "html": "<p>Untuk menerapkan seluruh teori yang telah dipelajari, siswa diajak mengeksekusi proyek perancangan poster nyata berdasarkan brief:</p>\n<p><strong>Design Brief Acuan:</strong></p>\n<ul>\n<li><strong>Nama Acara</strong>: Festival Kreativitas Siswa 2026</li>\n<li><strong>Audiens Target</strong>: Seluruh siswa sekolah</li>\n<li><strong>Tujuan</strong>: Mendorong partisipasi aktif siswa mengikuti rangkaian festival</li>\n<li><strong>Media &amp; Format</strong>: Feed Instagram, aspek rasio 4:5</li>\n<li><strong>Rincian Acara</strong>: 17 Oktober 2026, Aula Sekolah, Pukul 08.00 WIB</li>\n<li><strong>Call to Action</strong>: Daftar Sekarang</li>\n</ul>\n<p><strong>Langkah Eksekusi:</strong></p>\n<ol>\n<li><strong>Tentukan Pesan Utama</strong>: Tetapkan teks inti yang paling wajib diingat audiens: <code>&quot;FESTIVAL KREATIVITAS SISWA&quot;</code>.</li>\n<li><strong>Tetapkan Hierarki Visual</strong>: Rancang urutan baca dari Judul ? Tanggal ? Lokasi ? Informasi Pendukung ? CTA:</li>\n</ol>\n<pre><code class=\"language-text\">Judul\n?\nTanggal\n?\nLokasi\n?\nInformasi\n?\nCTA\n</code></pre>\n<ol start=\"3\">\n<li><strong>Pilih Aset Visual</strong>: Gunakan foto representatif siswa yang sedang berkarya secara kreatif dan dinamis.</li>\n<li><strong>Tentukan Palet Warna</strong>: Terapkan rumus tri-warna: 1 warna utama, 1 warna sekunder, dan 1 warna aksen penarik perhatian.</li>\n<li><strong>Buat Sketsa Kasar</strong>: Rancang tata letak tata letak awal di atas kertas sebelum membuka perangkat lunak desain digital.</li>\n</ol>\n<hr>\n",
+  "toc": []
+}

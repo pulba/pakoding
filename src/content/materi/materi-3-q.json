@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-q",
+  "slug": "materi-3-q",
+  "moduleSlug": "materi-3",
+  "letter": "Q",
+  "title": "Komposisi Fotografi",
+  "html": "<p>Komposisi adalah teknik mengatur susunan elemen visual di dalam batas bingkai (<em>frame</em>) agar foto memiliki daya tarik estetis, keteraturan, dan kejelasan pesan:</p>\n<ol>\n<li><strong>Rule of Thirds</strong>: Panduan membagi kanvas menjadi sembilan bagian yang sama menggunakan dua garis horizontal dan dua garis vertikal. Titik pertemuan garis tersebut adalah area paling kuat secara psikologis untuk meletakkan subjek utama:</li>\n</ol>\n<pre><code class=\"language-text\">┌─────┬─────┬─────┐\n│     │     │     │\n├─────┼─────┼─────┤\n│     │     │     │\n├─────┼─────┼─────┤\n│     │     │     │\n└─────┴─────┴─────┘\n</code></pre>\n<ol start=\"2\">\n<li><strong>Center Composition</strong>: Menempatkan subjek utama tepat di titik tengah bingkai. Sangat efektif untuk menonjolkan subjek tunggal, foto potret formal, atau objek arsitektur simetris.</li>\n<li><strong>Symmetry</strong>: Memanfaatkan keselarasan cermin antara sisi kiri dan kanan bidang gambar, misalnya pada lorong gedung sekolah, deretan tiang, pintu gerbang, atau pantulan air.</li>\n<li><strong>Leading Lines</strong>: Menggunakan elemen garis nyata atau tersirat di lingkungan (jalan setapak, pagar, jajaran anak tangga, koridor sekolah) untuk menuntun mata pemirsa menuju subjek utama.</li>\n<li><strong>Framing (Natural Framing)</strong>: Memanfaatkan elemen lingkungan di sekitar subjek (bingkai pintu, daun pepohonan, celah jendela, atau gapura) sebagai bingkai alami yang mengunci perhatian pada objek utama.</li>\n<li><strong>Negative Space</strong>: Memberikan porsi ruang kosong yang luas di sekeliling subjek utama untuk menciptakan kesan minimalis, elegan, dan memberi subjek ruang bernapas visual.</li>\n</ol>\n<p>![alt text]/image-10.png</p>\n<hr>\n",
+  "toc": []
+}

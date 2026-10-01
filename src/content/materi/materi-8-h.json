@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-h",
+  "slug": "materi-8-h",
+  "moduleSlug": "materi-8",
+  "letter": "H",
+  "title": "Pengelolaan Layer Dan Grouping",
+  "html": "<ul>\n<li><strong>Grouping</strong>: Kelompokkan elemen-elemen yang saling terikat (misalnya: Ikon Lokasi + Teks Nama Gedung) menjadi satu kesatuan (<em>Ctrl+G</em>) agar mudah dipindahkan secara serentak tanpa merusak spasi.</li>\n<li><strong>Layering (Tata Tingkat Bidang)</strong>: Kelola urutan penumpukan objek menggunakan fitur <em>Position (Bring Forward / Send Backward)</em> dengan susunan ideal:</li>\n</ul>\n<pre><code class=\"language-text\">Teks Utama &amp; CTA (Lapisan Paling Depan)\n↓\nElemen Grafis Penegas / Shape Container\n↓\nLapisan Gelap Transparan (Overlay)\n↓\nFoto Subjek Utama\n↓\nWarna Dasar Kanvas (Lapisan Paling Belakang)\n</code></pre>\n<hr>\n",
+  "toc": []
+}

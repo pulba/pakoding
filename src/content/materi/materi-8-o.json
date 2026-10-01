@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-o",
+  "slug": "materi-8-o",
+  "moduleSlug": "materi-8",
+  "letter": "O",
+  "title": "Standar Ekspor Dan Format Penamaan File",
+  "html": "<ul>\n<li><strong>Standar Format File</strong>: Ekspor ke format <strong>PNG</strong> untuk hasil grafis beresolusi tinggi dan teks yang tajam; format <strong>JPG</strong> untuk foto dengan ukuran file hemat memori; format <strong>PDF Print</strong> untuk kebutuhan cetak fisik; serta format <strong>MP4</strong> untuk video/animasi.</li>\n<li><strong>Standar Penamaan File</strong>: Terapkan kedisiplinan nama file baku: <code>Nama_Kelas_NamaProyek_Final.png</code> (contoh: <code>Andi_XA_PosterKebersihan_Final.png</code>). Hindari penamaan berulang yang tidak profesional seperti <code>final_beneran_fix.png</code>.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

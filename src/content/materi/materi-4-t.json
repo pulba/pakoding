@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-t",
+  "slug": "materi-4-t",
+  "moduleSlug": "materi-4",
+  "letter": "T",
+  "title": "Konsistensi Arah Layar (Screen Direction)",
+  "html": "<p>Konsistensi arah layar menjamin pemirsa memahami ruang geografis peristiwa secara logis:</p>\n<pre><code class=\"language-text\">SHOT 1: Siswa berjalan [ Kiri ───&gt; Kanan ]\nSHOT 2: Siswa tiba di gerbang [ Kiri ───&gt; Kanan ]\n</code></pre>\n<p>Jika arah gerak mendadak dibalik tanpa transisi yang jelas, pemirsa akan berasumsi bahwa subjek berbalik arah kembali ke tempat semula.</p>\n<hr>\n",
+  "toc": []
+}

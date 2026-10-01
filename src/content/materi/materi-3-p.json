@@ -1,0 +1,9 @@
+{
+  "id": "materi-3-p",
+  "slug": "materi-3-p",
+  "moduleSlug": "materi-3",
+  "letter": "P",
+  "title": "White Balance (Keseimbangan Warna Putih)",
+  "html": "<p>Setiap sumber pencahayaan memiliki temperatur warna yang diukur dalam satuan derajat Kelvin (K). Cahaya lilin dan lampu pijar cenderung memancarkan rona kekuningan (<em>warm</em>), sementara cahaya langit mendung atau bayangan pohon cenderung memancarkan rona kebiruan (<em>cool</em>). </p>\n<p>Pengaturan <em>White Balance</em> berfungsi memastikan agar objek berwarna putih di dunia nyata tetap terekam putih alami di dalam foto tanpa terdistorsi oleh temperatur warna lingkungan sekitarnya.</p>\n<p>![alt text]/image-9.png</p>\n<hr>\n",
+  "toc": []
+}

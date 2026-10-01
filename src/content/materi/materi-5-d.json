@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-d",
+  "slug": "materi-5-d",
+  "moduleSlug": "materi-5",
+  "letter": "D",
+  "title": "Manajemen Dan Organisasi File",
+  "html": "<p>Sebelum membuka aplikasi CapCut, siswa dilatih menata folder proyek secara terstruktur di media penyimpanan. Jangan pernah mencampuradukkan rekaman video mentah, lagu, dan ekspor di sembarang tempat.</p>\n<p>Standar struktur direktori proyek profesional:</p>\n<pre><code class=\"language-text\">PROJECT_SEKOLAH/\n+-- 01_FOOTAGE/   (Rekaman video mentah dari kamera/smartphone)\n+-- 02_AUDIO/     (Rekaman suara vokal terpisah dan voice over)\n+-- 03_PHOTO/     (Aset foto diam pendukung)\n+-- 04_MUSIC/     (Lagu ilustrasi latar bebas hak cipta)\n+-- 05_GRAPHIC/   (Aset logo sekolah, ikon, dan ilustrasi transparan)\n+-- 06_EXPORT/    (Hasil video final yang sudah dirender)\n</code></pre>\n<p>Terapkan pula format penamaan file yang deskriptif dan baku, misalnya: <code>kelas10_gerbang_01.mp4</code>, <code>kelas10_kantin_02.mp4</code>, atau <code>kelas10_wawancara_andi.wav</code> agar tim editor dapat menemukan aset dalam hitungan detik.</p>\n<hr>\n",
+  "toc": []
+}

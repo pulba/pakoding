@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-v",
+  "slug": "materi-4-v",
+  "moduleSlug": "materi-4",
+  "letter": "V",
+  "title": "A-Roll Dan B-Roll",
+  "html": "<ul>\n<li><strong>A-Roll</strong>: Rekaman rekaman inti yang membawa alur narasi utama, seperti tuturan presenter, wawancara tokoh, pemaparan narasumber, atau dialog tokoh kunci.</li>\n<li><strong>B-Roll</strong>: Rekaman visual pendukung yang disisipkan di atas suara A-Roll untuk memperjelas dan mengilustrasikan hal-hal yang sedang dibicarakan.</li>\n</ul>\n<p>Ketika <em>talent</em> A-Roll mengatakan: <em>&quot;Sekolah kami memiliki fasilitas laboratorium sains yang lengkap dan perpustakaan yang nyaman&quot;</em>, editor akan menampilkan visual B-Roll berupa siswa yang sedang mengamati mikroskop di lab dan siswa yang sedang asyik membaca di ruang baca. Formula produksinya:</p>\n<pre><code class=\"language-text\">A-ROLL (Talent Berbicara) + B-ROLL (Visual Pendukung) = Video Edukatif yang Menarik\n</code></pre>\n<hr>\n",
+  "toc": []
+}

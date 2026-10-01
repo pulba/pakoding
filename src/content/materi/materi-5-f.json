@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-f",
+  "slug": "materi-5-f",
+  "moduleSlug": "materi-5",
+  "letter": "F",
+  "title": "Anatomi Linimasa (Timeline)",
+  "html": "<p>Timeline adalah representasi matematis dari waktu berjalannya sebuah video:</p>\n<pre><code class=\"language-text\">00:00                     00:15                     00:30\n+-------------------------+-------------------------�\n�        Shot 1           �   Shot 2    �  Shot 3   �  &lt;- Video Track\n+---------------------------------------+-----------�\n� Music Background                      � SFX       �  &lt;- Audio Track\n+---------------------------------------------------�\n� Title Acara             � Lower Third             �  &lt;- Text Track\n</code></pre>\n<p>Sumbu horizontal merepresentasikan pergerakan durasi waktu (dari kiri detik ke-0 bergerak ke kanan), sedangkan sumbu vertikal (<em>layer track</em>) menunjukkan susunan penumpukan jenis media.</p>\n<hr>\n",
+  "toc": []
+}

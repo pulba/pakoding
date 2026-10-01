@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-n",
+  "slug": "materi-5-n",
+  "moduleSlug": "materi-5",
+  "letter": "N",
+  "title": "Tata Suara Multitrack (Audio Editing)",
+  "html": "<p>Tata suara adalah separuh dari pengalaman menonton sebuah video:</p>\n<pre><code class=\"language-text\">VIDEO TRACK : [ Visual B-Roll Laboratorium Komputer ]\nVOICE TRACK : [ &quot;Fasilitas lab komputer kami didukung internet cepat...&quot; ]\nMUSIC TRACK : [ Instrumen Akustik Ceria (Volume Terkontrol -20 dB) ]\nSFX TRACK   : [ Denting Notifikasi Keyboard ]\nAMBIENCE    : [ Gemerisik Ruang Pendingin AC ]\n</code></pre>\n<p>Setiap elemen suara harus ditempatkan pada track terpisah dan diatur tingkat kekerasannya (<em>gain level</em>) agar tidak saling menabrak dan menutupi vokal narasi utama.</p>\n<hr>\n",
+  "toc": []
+}

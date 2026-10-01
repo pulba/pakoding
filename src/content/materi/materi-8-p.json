@@ -1,0 +1,9 @@
+{
+  "id": "materi-8-p",
+  "slug": "materi-8-p",
+  "moduleSlug": "materi-8",
+  "letter": "P",
+  "title": "Checklist Kontrol Kualitas Sebelum Ekspor",
+  "html": "<ul>\n<li><input disabled=\"\" type=\"checkbox\"> Ukuran kanvas pixel telah sesuai dengan standar platform yang dituju.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Bebas dari kesalahan ketik (<em>typo</em>) pada nama orang, gelar, tanggal, dan lokasi.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Penyelarasan teks (<em>alignment</em>) tertata lurus dan rapi.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Hierarki ukuran teks membimbing urutan baca dari judul hingga rincian.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Kontras warna antara teks dan latar belakang sangat jelas.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Resolusi foto tajam, tidak buram, dan tidak pecah (<em>pixelated</em>).</li>\n<li><input disabled=\"\" type=\"checkbox\"> Logo resmi dan teks tidak terpotong oleh batas margin tepi (<em>safe area</em>).</li>\n<li><input disabled=\"\" type=\"checkbox\"> Palet warna dan gaya tipografi konsisten di seluruh lembar desain.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}

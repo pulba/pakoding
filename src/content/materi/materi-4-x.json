@@ -1,0 +1,9 @@
+{
+  "id": "materi-4-x",
+  "slug": "materi-4-x",
+  "moduleSlug": "materi-4",
+  "letter": "X",
+  "title": "Penyusunan Shot List",
+  "html": "<p>Jika storyboard adalah panduan visual artistik, <em>shot list</em> adalah lembar kerja taktis operasional juru kamera saat berada di lokasi pengambilan gambar:</p>\n<pre><code class=\"language-text\">No | Deskripsi Shot                   | Ukuran Shot | Angle Kamera | Keterangan\n---|-----------------------------------|-------------|--------------|----------------\n01 | Fasad gerbang depan sekolah      | Wide Shot   | Eye Level    | Cuaca pagi cerah\n02 | Siswa berjalan beriringan        | Medium Shot | Low Angle    | Gerakan santai\n03 | Detail derap sepatu di paving    | Close Up    | Ground/Worm  | Freeze motion\n04 | Siswa menyapa guru di lobi       | Medium Shot | Eye Level    | Natural candid\n05 | Guru menjelaskan materi di kelas | Wide Shot   | High Angle   | Suasana kelas\n06 | Tangan siswa mencatat rumus      | Close Up    | Top Angle    | Fokus tajam\n</code></pre>\n<hr>\n",
+  "toc": []
+}

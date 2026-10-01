@@ -1,0 +1,9 @@
+{
+  "id": "materi-9-b",
+  "slug": "materi-9-b",
+  "moduleSlug": "materi-9",
+  "letter": "B",
+  "title": "Simulasi Dunia Kerja Industri Kreatif",
+  "html": "<p>Dalam simulasi ini, pendidik/guru bertindak sebagai <strong>Klien (Client)</strong> yang memberikan dokumen spesifikasi kebutuhan (<em>project brief</em>), sementara kelompok siswa bertindak sebagai <strong>Tim Kreatif (Creative Agency)</strong>:</p>\n<pre><code class=\"language-text\">GURU / SEKOLAH (CLIENT)\n        │\n        │ Memberikan Brief &amp; Ekspektasi Acara\n        ↓\n┌───────────────────────────────────────────────┐\n│        CREATIVE AGENCY (TIM KISWA)            │\n├───────────────────────────────────────────────┤\n│ • Project Manager (Penanggung Jawab Alur)     │\n│ • Scriptwriter &amp; Storyteller (Naskah Narasi)  │\n│ • Photographer (Dokumentasi Aset Visual Diam) │\n│ • Videographer (Pengambilan Gambar Bergerak)  │\n│ • On-Camera Talent (Pemandu Acara &amp; Narator)  │\n│ • Graphic Designer (Perancang Layout &amp; Grafis)│\n│ • Video Editor (Penyunting Linimasa &amp; Suara)  │\n└───────────────────────────────────────────────┘\n        │\n        ↓\nPAKET PRODUK MULTIMEDIA FINAL SIAP TAYANG\n</code></pre>\n<p><em>Catatan untuk kelas kecil: Satu orang siswa dapat merangkap dua peran yang saling mendukung (misalnya Videografer merangkap Video Editor).</em></p>\n<hr>\n",
+  "toc": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "materi-5-u",
+  "slug": "materi-5-u",
+  "moduleSlug": "materi-5",
+  "letter": "U",
+  "title": "Standar Ekspor Dan Rendering Video",
+  "html": "<p>Sebelum merender hasil akhir, periksa parameter teknis:</p>\n<ul>\n<li><strong>Format Kontainer</strong>: MP4 (Codec H.264) untuk kompatibilitas universal di semua perangkat.</li>\n<li><strong>Resolusi</strong>: 1080 × 1920 piksel untuk konten vertikal (Reels/TikTok/Shorts) atau 1920 × 1080 piksel untuk konten horizontal YouTube/presentasi.</li>\n<li><strong>Frame Rate</strong>: Sesuaikan dengan rekaman bahan mentah (biasanya 30 fps atau 24 fps).</li>\n<li><strong>Bitrate</strong>: Pilih pengaturan standar tinggi yang menghasilkan ukuran file seimbang tanpa mengorbankan ketajaman gambar.</li>\n</ul>\n<hr>\n",
+  "toc": []
+}
