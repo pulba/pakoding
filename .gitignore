@@ -10,6 +10,9 @@ dist
 coverage
 *.lcov
 
+# large files
+public/Buku_Ajar_Multimedia.pdf
+
 # logs
 logs
 _.log
